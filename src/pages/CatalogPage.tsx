@@ -117,12 +117,13 @@ export function CatalogPage() {
   const [isSortOpen, setIsSortOpen] = useState(false);
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
-  // Sync URL params to filters on mount / URL change
+  // Sync URL params to filters and sort on mount / URL change
   useEffect(() => {
     const genero = searchParams.get('genero');
     const categoria = searchParams.get('categoria');
     const actividad = searchParams.get('actividad');
     const q = searchParams.get('q');
+    const orden = searchParams.get('orden') as SortOption | null;
 
     setFilters((prev) => ({
       ...EMPTY_FILTERS,
@@ -131,6 +132,8 @@ export function CatalogPage() {
       activity: actividad ? [actividad] : [],
       searchQuery: q || '',
     } as FilterState & { searchQuery?: string }));
+
+    if (orden && orden in sortLabels) setSortBy(orden);
   }, [searchParams]);
 
   const searchQuery = (searchParams.get('q') || '').toLowerCase();
@@ -138,9 +141,7 @@ export function CatalogPage() {
   const filteredProducts = useMemo(() => {
     return allProducts
       .filter((p) => {
-        if (filters.gender.length > 0 && !filters.gender.includes(p.gender) && p.gender !== 'Unisex') {
-          if (filters.gender.length > 0 && !filters.gender.includes(p.gender)) return false;
-        }
+        if (filters.gender.length > 0 && p.gender !== 'Unisex' && !filters.gender.includes(p.gender)) return false;
         if (filters.category.length > 0 && !filters.category.includes(p.category)) return false;
         if (filters.upf.length > 0 && !filters.upf.includes(p.upf)) return false;
         if (filters.activity.length > 0 && !filters.activity.includes(p.activity)) return false;

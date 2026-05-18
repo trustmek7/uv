@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, Check } from 'lucide-react';
 import { FilterState } from '../types';
+import productFilters from '../data/products_filters.json';
 
 interface FilterSidebarProps {
   filters: FilterState;
@@ -9,9 +10,9 @@ interface FilterSidebarProps {
 }
 
 const FILTER_OPTIONS = {
-  gender: ['Mujer', 'Hombre', 'Niños', 'Unisex'],
-  size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-  category: [
+  gender: productFilters.genders ?? ['Mujer', 'Hombre', 'Niños', 'Unisex'],
+  size: productFilters.sizes ?? ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+  category: productFilters.categories ?? [
     'Polos',
     'Leggings',
     'Casacas',
@@ -21,12 +22,13 @@ const FILTER_OPTIONS = {
     'Guantes',
     'Conjuntos',
     'Rashguards',
-    'Swimwear',
+    'Trajes de Baño',
     'Shorts',
     'Pantalones',
+    'Accesorios',
   ],
-  upf: ['UPF 30+', 'UPF 50+', 'UPF 50++'],
-  activity: ['Outdoor', 'Trekking', 'Running', 'Deportivo', 'Escolar', 'Playa'],
+  upf: productFilters.upf ?? ['UPF 30+', 'UPF 50+', 'UPF 50++'],
+  activity: productFilters.activities ?? ['Outdoor', 'Trekking', 'Running', 'Deportivo', 'Escolar', 'Playa'],
   conjuntos: [
     'Conjuntos escolares',
     'Conjuntos deportivos',
@@ -37,7 +39,7 @@ const FILTER_OPTIONS = {
   ],
   ropaDeBano: [
     'Rashguards',
-    'Swimwear',
+    'Trajes de Baño',
     'Manga corta',
     'Manga larga',
     'Mangas UV',

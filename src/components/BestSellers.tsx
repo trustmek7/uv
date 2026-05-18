@@ -6,8 +6,8 @@ import { useWishlist } from '../context/WishlistContext';
 import { useCart } from '../context/CartContext';
 import { toast } from 'sonner';
 
-const BEST_SELLER_IDS = ['p1', 'p3', 'p8', 'rb1', 'rb3', 'rb6', 'rb10', 'rb12'];
-const ALL_BEST = products.filter((p) => BEST_SELLER_IDS.includes(p.id));
+const NEW_PRODUCTS = products.filter((p) => p.isNew);
+const FALLBACK = products.slice(0, 12);
 
 export function BestSellers() {
   const { toggle, isWishlisted } = useWishlist();
@@ -15,11 +15,19 @@ export function BestSellers() {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState<'all' | 'mujer' | 'bano'>('all');
 
-  const displayed = ALL_BEST.filter((p) => {
-    if (activeTab === 'mujer') return p.gender === 'Mujer' && p.activity !== 'Playa';
-    if (activeTab === 'bano') return p.activity === 'Playa';
-    return true;
-  });
+  // Each tab draws from the full catalog so it always has results
+  const displayed = (() => {
+    if (activeTab === 'mujer') {
+      const mujer = products.filter((p) => p.gender === 'Mujer' && p.activity !== 'Playa');
+      return mujer.slice(0, 12);
+    }
+    if (activeTab === 'bano') {
+      const playa = products.filter((p) => p.activity === 'Playa' || p.category === 'Trajes de Baño' || p.category === 'Rashguards');
+      return playa.slice(0, 12);
+    }
+    const base = NEW_PRODUCTS.length > 0 ? NEW_PRODUCTS : FALLBACK;
+    return base.slice(0, 12);
+  })();
 
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32 border-t border-slate-100">

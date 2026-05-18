@@ -1,0 +1,30 @@
+{
+  "categories": [
+    "Accesorios",
+    "Gorras",
+    "Guantes",
+    "Polos",
+    "Trajes de Baño"
+  ],
+  "genders": [
+    "Hombre",
+    "Mujer",
+    "Niños",
+    "Unisex"
+  ],
+  "activities": [
+    "Deportivo",
+    "Outdoor",
+    "Playa"
+  ],
+  "upf": [
+    "UPF 50+"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ]
+}

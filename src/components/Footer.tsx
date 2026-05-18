@@ -35,7 +35,7 @@ export function Footer() {
                 { label: 'Hombre', href: '/catalogo?genero=Hombre' },
                 { label: 'Niños', href: '/catalogo?genero=Niños' },
                 { label: 'Ropa de Baño', href: '/catalogo?actividad=Playa' },
-                { label: 'Accesorios', href: '/catalogo?categoria=Gorras' },
+                { label: 'Accesorios', href: '/catalogo?categoria=Accesorios' },
               ].map((item) => (
                 <li key={item.label}>
                   <Link to={item.href} className="text-slate-400 hover:text-navy transition-colors text-sm font-light">
