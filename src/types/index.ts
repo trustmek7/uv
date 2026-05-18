@@ -16,13 +16,6 @@ export interface Product {
   isNew?: boolean;
 }
 
-export interface CartItem {
-  id: string; // unique id for cart item (product.id + color + size)
-  product: Product;
-  quantity: number;
-  selectedColor: string;
-  selectedSize: string;
-}
 
 export interface FilterState {
   gender: string[];
@@ -32,5 +25,6 @@ export interface FilterState {
   upf: string[];
   activity: string[];
   conjuntos: string[];
+  ropaDeBano: string[];
   priceRange: [number, number];
 }

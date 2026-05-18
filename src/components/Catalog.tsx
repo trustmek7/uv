@@ -25,6 +25,7 @@ export function Catalog({
     upf: [],
     activity: [],
     conjuntos: [],
+    ropaDeBano: [],
     priceRange: [0, 500]
   });
   const [sortBy, setSortBy] = useState<SortOption>('destacados');
@@ -166,11 +167,12 @@ export function Catalog({
                 upf: [],
                 activity: [],
                 conjuntos: [],
+                ropaDeBano: [],
                 priceRange: [0, 500]
               })
               }
               className="text-xs uppercase tracking-widest font-medium text-navy border-b border-navy pb-1">
-              
+
                 Limpiar filtros
               </button>
             </div>
