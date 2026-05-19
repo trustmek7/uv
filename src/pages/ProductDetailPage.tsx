@@ -166,9 +166,9 @@ export function ProductDetailPage() {
                 <p className="text-[10px] uppercase tracking-widest text-navy font-medium">
                   Talla {sizeError && <span className="text-red-500 normal-case tracking-normal font-light"> — Selecciona una talla</span>}
                 </p>
-                <button className="text-[10px] uppercase tracking-widest text-slate-400 hover:text-navy transition-colors underline underline-offset-2">
+                <Link to="/guia-de-tallas" className="text-[10px] uppercase tracking-widest text-slate-400 hover:text-navy transition-colors underline underline-offset-2">
                   Guía de tallas
-                </button>
+                </Link>
               </div>
               <div className="flex flex-wrap gap-2">
                 {product.sizes.map((size) => (

@@ -6,3 +6,6 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_ME
 
 export const INSTAGRAM_URL = 'https://www.instagram.com/solarwear.peru/';
 export const FACEBOOK_URL = 'https://www.facebook.com/solarwear.peru';
+
+// Obtén tu clave gratuita en https://web3forms.com (solo pon tu email, te llegan las suscripciones)
+export const WEB3FORMS_KEY = 'TU_ACCESS_KEY_AQUI';
