@@ -49,7 +49,7 @@ export function LoginPage() {
       {/* Left — image panel */}
       <div className="hidden lg:block lg:w-1/2 relative overflow-hidden">
         <img
-          src="/img/SolarWear_portada.jpeg"
+          src="/img/SolarWear_portada.jpg"
           alt="SolarWear lifestyle"
           className="w-full h-full object-cover"
         />

@@ -142,7 +142,18 @@ export function CatalogPage() {
     return allProducts
       .filter((p) => {
         if (isOfertaMode && !p.discount) return false;
-        if (filters.gender.length > 0 && p.gender !== 'Unisex' && !filters.gender.includes(p.gender)) return false;
+        
+        // Fix gender filtering logic:
+        // 1. If no gender filters are selected, show everything.
+        // 2. If gender filters are selected:
+        //    - Show products that match the selected gender.
+        //    - Always show 'Unisex' products if any gender filter is active.
+        if (filters.gender.length > 0) {
+          const matchesSelected = filters.gender.includes(p.gender);
+          const isUnisex = p.gender === 'Unisex';
+          if (!matchesSelected && !isUnisex) return false;
+        }
+
         if (filters.category.length > 0 && !filters.category.includes(p.category)) return false;
         if (filters.upf.length > 0 && !filters.upf.includes(p.upf)) return false;
         if (filters.activity.length > 0 && !filters.activity.includes(p.activity)) return false;

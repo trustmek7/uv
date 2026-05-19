@@ -1,14 +1,17 @@
 {
   "categories": [
-    "Polos",
+    "Accesorios",
+    "Casacas",
     "Gorras",
     "Guantes",
-    "Trajes de Baño",
-    "Accesorios"
+    "Pantalones",
+    "Polos",
+    "Shorts",
+    "Trajes de Baño"
   ],
   "genders": [
-    "Mujer",
     "Hombre",
+    "Mujer",
     "Niños",
     "Unisex"
   ],

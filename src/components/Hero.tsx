@@ -7,7 +7,7 @@ export function Hero() {
     <section className="relative h-[88vh] min-h-[620px] w-full bg-mist overflow-hidden pt-[104px]">
       <div className="absolute inset-0 z-0">
         <img
-          src="/img/SolarWear_portada.jpeg"
+          src="/img/SolarWear_portada.jpg"
           alt="SolarWear portada"
           className="w-full h-full object-cover object-center"
         />

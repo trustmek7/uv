@@ -5,7 +5,7 @@ export function NotFoundPage() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 text-center">
       <Link to="/" className="mb-10 block">
-        <img src="/img/SolarWear_Logo.jpeg" alt="SolarWear" className="h-20 w-auto object-contain mix-blend-multiply mx-auto" />
+        <img src="/img/SolarWear_logo.jpeg" alt="SolarWear" className="h-20 w-auto object-contain mix-blend-multiply mx-auto" />
       </Link>
 
       <p className="text-[10px] uppercase tracking-widest text-slate-400 mb-4">Error 404</p>

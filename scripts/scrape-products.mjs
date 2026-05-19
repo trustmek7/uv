@@ -18,10 +18,19 @@ const COLLECTION_GENDER_MAP = [
 
 const inferCollectionGender = (handle = '', title = '') => {
   const text = `${handle} ${title}`.toLowerCase();
+  
+  // High priority markers
+  if (text.includes('niño') || text.includes('nino') || text.includes('nina') || text.includes('niña') || text.includes('kids') || text.includes('infantil') || text.includes('baby') || text.includes('menina')) return 'ninos';
+  if (text.includes('mujer') || text.includes('mujeres') || text.includes('women') || text.includes('woman') || text.includes('femenino')) return 'mujer';
+  if (text.includes('hombre') || text.includes('hombres') || text.includes('men') || text.includes('man') || text.includes('masculino')) return 'hombre';
+  
+  // Accessory fallback
+  if (text.includes('accesorio') || text.includes('gorra') || text.includes('guante') || text.includes('manga') || text.includes('visera')) return 'accesorios';
+
   for (const { pattern, gender } of COLLECTION_GENDER_MAP) {
     if (pattern.test(text)) return gender;
   }
-  return null; // skip unrecognized collections
+  return null;
 };
 
 // Shopify collections we always skip (non-product pages, lookbooks, etc.)
@@ -94,13 +103,26 @@ const normalizeTags = (tags) => {
 };
 
 const fetchJson = async (url) => {
-  const response = await fetch(url, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; UV-Scraper/1.0)' },
-  });
-  if (!response.ok) {
-    throw new Error(`Request failed: ${response.status} ${response.statusText} for ${url}`);
+  let lastError;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const response = await fetch(url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' },
+      });
+      if (response.status === 429 || response.status >= 500) {
+        throw new Error(`Status ${response.status}`);
+      }
+      if (!response.ok) {
+        throw new Error(`Request failed: ${response.status} ${response.statusText} for ${url}`);
+      }
+      return await response.json();
+    } catch (err) {
+      lastError = err;
+      console.warn(`  Attempt ${i + 1} failed for ${url}: ${err.message}. Retrying in 2s...`);
+      await new Promise(resolve => setTimeout(resolve, 2000));
+    }
   }
-  return response.json();
+  throw lastError;
 };
 
 // ---------------------------------------------------------------------------
@@ -341,17 +363,17 @@ const scrapeTrekking = async () => {
 // ---------------------------------------------------------------------------
 const CATEGORY_RULES = [
   { category: 'Rashguards', keywords: ['rashguard', 'rash'] },
-  { category: 'Trajes de Baño', keywords: ['traje de bano', 'traje de baño', 'bikini', 'swimwear', 'banador', 'enterizo', 'one-piece'] },
+  { category: 'Trajes de Baño', keywords: ['traje de bano', 'traje de baño', 'bikini', 'swimwear', 'banador', 'enterizo', 'one-piece', 'sunga', 'boxer natacion', 'bermuda natacion'] },
   { category: 'Polos', keywords: ['polo', 'camiseta', 't-shirt', 'tshirt', 'camisa'] },
   { category: 'Leggings', keywords: ['legging', 'calza'] },
-  { category: 'Casacas', keywords: ['casaca', 'chaqueta', 'jacket', 'parka'] },
+  { category: 'Casacas', keywords: ['casaca', 'chaqueta', 'jacket', 'parka', 'plumon', 'plumifero', 'vientos'] },
   { category: 'Cortavientos', keywords: ['cortaviento', 'windbreaker'] },
   { category: 'Gorras', keywords: ['gorra', 'sombrero', 'visera', 'cap', 'hat'] },
   { category: 'Mangas', keywords: ['manga', 'mangas'] },
   { category: 'Guantes', keywords: ['guante', 'glove'] },
   { category: 'Conjuntos', keywords: ['conjunto', 'set', 'kit'] },
-  { category: 'Shorts', keywords: ['short'] },
   { category: 'Pantalones', keywords: ['pantalon', 'pant'] },
+  { category: 'Shorts', keywords: ['short'] },
 ];
 
 const SIZE_ORDER = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
@@ -366,17 +388,42 @@ const uniq = (items) => Array.from(new Set(items));
 
 const inferCategory = (item) => {
   const productType = normalizeText(item.product_type || item.category || '');
+  const name = normalizeText(item.name || '');
+  const tags = normalizeText((item.tags || []).join(' '));
+  const description = normalizeText(item.description || '');
+  const haystack = `${name} ${productType} ${tags} ${description}`;
 
-  if (productType.includes('guante') || productType.includes('glove')) return 'Guantes';
-  if (productType.includes('gorra') || productType.includes('sombrero')) return 'Gorras';
-  if (productType.includes('camiseta') || productType.includes('camisa')) return 'Polos';
-  if (productType.includes('ropa de bano') || productType.includes('bano')) return 'Trajes de Baño';
+  // 1. High-priority specific categories (to avoid "casaca" ending up in "gorras" because it mentions "gorro desmontable")
+  if (haystack.includes('casaca') || haystack.includes('chaqueta') || haystack.includes('parka') || haystack.includes('jacket') || haystack.includes('plumifero') || haystack.includes('plumon') || name.includes('vientos') || haystack.includes('casaca ')) return 'Casacas';
+  if (haystack.includes('pantalon') || haystack.includes(' pants') || name.includes(' leggings') || (name.includes('silver ridge') && !name.includes('camisa'))) return 'Pantalones';
+  if (haystack.includes('short')) return 'Shorts';
 
-  if (item.collection === 'accesorios') return 'Accesorios';
+  // 2. Headwear
+  if (haystack.includes('gorra') || haystack.includes('sombrero') || haystack.includes('visera') || haystack.includes('cap') || haystack.includes('hat')) return 'Gorras';
 
-  const haystack = normalizeText(
-    [item.name, item.product_type, item.category, (item.tags || []).join(' ')].filter(Boolean).join(' ')
-  );
+  // 3. Swimwear
+  if (
+    haystack.includes('ropa de bano') || 
+    haystack.includes('traje de bano') || 
+    haystack.includes('swimwear') || 
+    haystack.includes('banador') || 
+    haystack.includes('bikini') || 
+    haystack.includes('enterizo') || 
+    haystack.includes('tankini') ||
+    haystack.includes('salida de bano') ||
+    haystack.includes('sunga') ||
+    haystack.includes('boxer natacion') ||
+    haystack.includes('bermuda natacion')
+  ) return 'Trajes de Baño';
+
+  // 4. Gloves and other small accessories
+  if (haystack.includes('guante') || haystack.includes('glove')) return 'Guantes';
+
+  // 5. Tops
+  if (haystack.includes('camiseta') || haystack.includes('camisa') || haystack.includes('polo') || haystack.includes('t-shirt') || haystack.includes('tshirt')) return 'Polos';
+  
+  // 6. Generic or keyword-based fallback
+  if (item.collection === 'accesorios' || haystack.includes('accesorio') || haystack.includes('lente') || haystack.includes('funda') || haystack.includes('mochila')) return 'Accesorios';
 
   for (const rule of CATEGORY_RULES) {
     if (rule.keywords.some((kw) => haystack.includes(normalizeText(kw)))) return rule.category;
@@ -386,15 +433,40 @@ const inferCategory = (item) => {
 };
 
 const inferGender = (item) => {
-  if (item.collection === 'mujer') return 'Mujer';
-  if (item.collection === 'hombre') return 'Hombre';
-  if (item.collection === 'ninos') return 'Niños';
-  if (item.collection === 'accesorios') return 'Unisex';
+  const name = normalizeText(item.name || '');
+  const description = normalizeText(item.description || '');
+  const tags = normalizeText((item.tags || []).join(' '));
+  const productType = normalizeText(item.product_type || item.category || '');
+  const collection = item.collection || '';
+  
+  const haystack = `${name} ${description} ${tags} ${productType}`.toLowerCase();
 
-  const haystack = normalizeText([item.name, item.category, item.product_type].filter(Boolean).join(' '));
-  if (haystack.includes('mujer') || haystack.includes('femenin')) return 'Mujer';
-  if (haystack.includes('hombre') || haystack.includes('masculin')) return 'Hombre';
-  if (haystack.includes('nino') || haystack.includes('nina') || haystack.includes('kids') || haystack.includes('baby')) return 'Niños';
+  // 1. Check for explicit "Infantil/Niño/Niña" FIRST
+  // If it contains "Basic" and "Pantalón", these are usually adult UV Line products that ended up in kids
+  const isBasicPant = name.includes('basic') && name.includes('pantalon');
+  if (!isBasicPant && (haystack.includes('para nino') || haystack.includes('para nina') || haystack.includes('infantil') || haystack.includes('kids') || haystack.includes('baby') || haystack.includes('menina'))) return 'Niños';
+  if (!isBasicPant && collection === 'ninos') return 'Niños';
+
+  // 2. Strong keyword markers in name/description
+  if (haystack.includes('para mujer') || haystack.includes('femenino') || haystack.includes('dama') || haystack.includes('modelo femenino')) return 'Mujer';
+  if (haystack.includes('para hombre') || haystack.includes('masculino') || haystack.includes('caballero') || haystack.includes('modelo masculino')) return 'Hombre';
+
+  // 3. Collection markers
+  if (collection === 'mujer') return 'Mujer';
+  if (collection === 'hombre') return 'Hombre';
+
+  // 4. Specific product mappings
+  if (name.includes('silver ridge') && (name.includes('pantalon') || name.includes('camisa'))) return 'Hombre';
+  if (name.includes('copacabana') || name.includes('copenhagen')) return 'Hombre'; // These shirts are usually male
+  if (name.includes('olaian') && name.includes('camiseta')) return 'Hombre'; // Specific Olaian UV shirt fix
+
+  // 5. Category/Type hints
+  if (haystack.includes('women') || haystack.includes(' mujer')) return 'Mujer';
+  if (haystack.includes('men ') || haystack.includes(' hombre')) return 'Hombre';
+
+  // 6. Default to Unisex for accessories
+  if (collection === 'accesorios' || haystack.includes('unisex') || haystack.includes('lente') || haystack.includes('funda')) return 'Unisex';
+  
   return 'Unisex';
 };
 
@@ -410,8 +482,8 @@ const inferUpf = (item) => {
 };
 
 const inferActivity = (item, category) => {
-  if (category === 'Trajes de Baño' || category === 'Rashguards') return 'Playa';
   const text = normalizeText([item.name, item.description].filter(Boolean).join(' '));
+  if (category === 'Trajes de Baño' || category === 'Rashguards' || text.includes('natacion') || text.includes('piscina')) return 'Playa';
   if (text.includes('trekking') || text.includes('hiking') || text.includes('senderismo') || text.includes('montani')) return 'Outdoor';
   if (text.includes('running') || text.includes('correr')) return 'Running';
   if (text.includes('escolar') || text.includes('escuela')) return 'Escolar';

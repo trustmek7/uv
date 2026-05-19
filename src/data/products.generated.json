@@ -1,29 +1,23 @@
 [
   {
-    "id": "uv-8427195990190",
-    "name": "Camisa UV con protección solar Copacabana - Arena",
-    "price": 77,
-    "originalPrice": 90,
-    "discount": 15,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_4_07f86bbf-e6be-45cb-9daa-09888b7b4366.jpg?v=1716224623",
+    "id": "uv-7881771090094",
+    "name": "Guantes UV dedos largos con protección solar - Beige",
+    "price": 38,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176595-3500-auto.webp?v=1739470749",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_4_07f86bbf-e6be-45cb-9daa-09888b7b4366.jpg?v=1716224623",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_6_25d493bc-0e03-4f4f-abdd-cc8a5c5fcc15.jpg?v=1716224624",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_5_8dbc2674-bb57-4723-8b04-fca98dcbe799.jpg?v=1716224624",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1.jpg-2_70725a8e-5b8f-46c8-bd37-6122ececfe8e.webp?v=1716224624"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176595-3500-auto.webp?v=1739470749",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176596-3500-auto.webp?v=1739470749",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176597-3500-auto.webp?v=1739470749",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/LUANTE_DEDOSLARGOS_GUIATAMANOS.png?v=1739470749"
     ],
     "colors": [
       "#0B1F3A",
-      "#A9D6FF",
       "#FFFFFF"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "M"
     ],
-    "category": "Polos",
+    "category": "Guantes",
     "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Outdoor",
@@ -31,111 +25,54 @@
     "isNew": false
   },
   {
-    "id": "uv-9038098530478",
-    "name": "Camisa UV con protección solar Copenhagen - Negro",
-    "price": 83,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189395-3500-auto.webp?v=1772830156",
+    "id": "uv-7982473019566",
+    "name": "Manguita UV con protección solar - Beige",
+    "price": 45,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176656-3500-auto.webp?v=1739471159",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189395-3500-auto.webp?v=1772830156",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189393-3500-auto.webp?v=1772830156",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189396-3500-auto.webp?v=1772830123",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189394-3500-auto.webp?v=1772830123"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176656-3500-auto.webp?v=1739471159",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176657-3500-auto.webp?v=1739471159",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176658-3500-auto.webp?v=1739471159",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_2.jpg?v=1756936097"
     ],
     "colors": [
       "#0B1F3A",
-      "#A9D6FF",
       "#FFFFFF"
     ],
     "sizes": [
       "M"
     ],
-    "category": "Polos",
+    "category": "Guantes",
     "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Outdoor",
     "isConjunto": false,
-    "isNew": true
+    "isNew": false
   },
   {
-    "id": "uv-9037902282926",
-    "name": "Camisa UV con protección solar Copenhagen - Off White",
-    "price": 83,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179468-3500-auto.webp?v=1772822356",
+    "id": "uv-7982511423662",
+    "name": "Manguita UV con protección solar - Negra",
+    "price": 45,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176618-3500-auto.webp?v=1739471124",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179468-3500-auto.webp?v=1772822356",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179469-3500-auto.webp?v=1772822356",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179470-3500-auto.webp?v=1772822356",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179471-3500-auto.webp?v=1772822356"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176618-3500-auto.webp?v=1739471124",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176622-3500-auto.webp?v=1739471124",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176621-3500-auto.webp?v=1739471124",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_2.jpg?v=1756936097"
     ],
     "colors": [
       "#0B1F3A",
-      "#A9D6FF",
       "#FFFFFF"
     ],
     "sizes": [
       "M"
     ],
-    "category": "Polos",
+    "category": "Guantes",
     "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Outdoor",
     "isConjunto": false,
-    "isNew": true
-  },
-  {
-    "id": "uv-9095278887086",
-    "name": "Camisa UV con protección solar Copenhagen - Marino",
-    "price": 83,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184786-3500-auto.webp?v=1777411597",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184786-3500-auto.webp?v=1777411597",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184788-3500-auto.webp?v=1777411597",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184787-3500-auto.webp?v=1777411597",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184785-3500-auto.webp?v=1777411597"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "M"
-    ],
-    "category": "Polos",
-    "gender": "Mujer",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": true
-  },
-  {
-    "id": "uv-8106974052526",
-    "name": "Gorra UV con protección solar Uvpro - Negro",
-    "price": 26,
-    "originalPrice": 32,
-    "discount": 20,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176108-3500-auto.webp?v=1773075791",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176108-3500-auto.webp?v=1773075791",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176109-3500-auto.webp?v=1773075791",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176110-3500-auto.webp?v=1773075791",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/2_1.png?v=1776178885"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Gorras",
-    "gender": "Hombre",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "uv-7876368007342",
@@ -159,9 +96,632 @@
       "XL"
     ],
     "category": "Guantes",
-    "gender": "Unisex",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915546669230",
+    "name": "Guantes UV dedos largos con protección solar - Negro",
+    "price": 38,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/WhatsAppImage2025-11-19at11.29.21PM.jpg?v=1763613138",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/WhatsAppImage2025-11-19at11.29.21PM.jpg?v=1763613138",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/92a52a1c-2c6b-4f5d-89a2-e0cae5222ef2.jpg?v=1763613138",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/dada469b-d098-4e08-806c-74f3892d0a01.jpg?v=1763613138",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/340e0f54-7103-40ab-9cab-041cae09b144.jpg?v=1763613138"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Guantes",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915530842286",
+    "name": "Guantes UV cortos con protección solar - Chocolate",
+    "price": 32,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-1.jpg?v=1764193212",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-1.jpg?v=1764193212",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-2.jpg?v=1764193212",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-3.jpg?v=1764193212",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-4.jpg?v=1764193212"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Guantes",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8262999802030",
+    "name": "Hat Clip UV LINE",
+    "price": 19,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/DAD24E66-5517-4D73-93EC-D323AA419904.jpg?v=1762612702",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/DAD24E66-5517-4D73-93EC-D323AA419904.jpg?v=1762612702",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/9EDDDDFB-0081-454E-BD25-1A39C40B8655.jpg?v=1762612702",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Beige.jpg?v=1762546827",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/01_23.jpg?v=1762546827",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/ChatGPT_Image_4_may_2026_10_59_31_a.m..png?v=1777910408"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8740727554222",
+    "name": "Guantes UV Largos con protección solar - Negro",
+    "price": 45,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176632-3500-autonegro.webp?v=1746546827",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176632-3500-autonegro.webp?v=1746546827",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176631-3500-autonegro.webp?v=1746546827",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176630-3500-autonegro.webp?v=1746546827",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176629-3500-autonegro.webp?v=1746546827",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080X1080PX.jpg?v=1756936159"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Guantes",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8639692439726",
+    "name": "Cuellera Maxi Negra UV LINE",
+    "price": 35,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-4.jpg?v=1734453729",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-4.jpg?v=1734453729",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-5.jpg?v=1734453729",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-6.jpg?v=1734453729",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-7.jpg?v=1734453729"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915535724718",
+    "name": "Guantes UV Largos con protección solar - Chocolate",
+    "price": 45,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189682-3500-auto.webp?v=1763610825",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189682-3500-auto.webp?v=1763610825",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189683-3500-auto.webp?v=1763610825",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189684-3500-auto.webp?v=1763610825",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189685-3500-auto.webp?v=1763610825"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Guantes",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8740727423150",
+    "name": "Guantes UV Largos con protección solar - Beige",
+    "price": 45,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179964-3500-auto.webp?v=1746546681",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179964-3500-auto.webp?v=1746546681",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179963-3500-auto.webp?v=1746546681",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179962-3500-auto.webp?v=1746546681",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080X1080PX.jpg?v=1756936159"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Guantes",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8636991471790",
+    "name": "Pareo Lisa Fem Marino UV LINE",
+    "price": 48,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_3.jpg?v=1734103811",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_3.jpg?v=1734103811",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_2.jpg?v=1734103811",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_1.jpg?v=1734103811"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Accesorios",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8698220478638",
+    "name": "Estuche UV LINE",
+    "price": 19,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Estuceh_UV.png?v=1741373213",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Estuceh_UV.png?v=1741373213"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8422504759470",
+    "name": "Sombrero UV con protección solar Cassis Zebra",
+    "price": 51,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UV_NOV_DIA1_22223.jpg?v=1715989232",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UV_NOV_DIA1_22223.jpg?v=1715989232",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UV_NOV_DIA1_22226.jpg?v=1715989232"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8068267475118",
+    "name": "Sombrero Basic Kids Fucsia UV LINE",
+    "price": 38,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_2.jpg?v=1734447973",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_2.jpg?v=1734447973",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_3.jpg?v=1734447985",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_1.jpg?v=1734447985"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8740728963246",
+    "name": "Sombrero UV Infantil con protección solar California - Marino/verde agua",
+    "price": 51,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178042-3500-auto_cali_verde.webp?v=1746547424",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178042-3500-auto_cali_verde.webp?v=1746547424",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178046-3500-auto_cali_verde.webp?v=1771878345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178043-3500-auto_cali_verde.webp?v=1771878345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178044-3500-auto_cali_verde.webp?v=1771878345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178045-3500-auto_cali_verde.webp?v=1771878345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178047-3500-auto_cali_verde.webp?v=1746547424"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915561447598",
+    "name": "Sombrero UV Infantil con protección solar California - Marino/lago",
+    "price": 51,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-1.jpg?v=1764193540",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-1.jpg?v=1764193540",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-2.jpg?v=1764193542",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-3.jpg?v=1764193545",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-4.jpg?v=1764193548"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7859118571694",
+    "name": "Camiseta UV femenina con protección solar Uvpro - Marino",
+    "price": 64,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178367-3500-auto_marino.webp?v=1746547636",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178367-3500-auto_marino.webp?v=1746547636",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/C0006_2.jpg?v=1746547636",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178368-3500-auto_marino.webp?v=1746547636",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/C0006_1.jpg?v=1746547636",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/C0006_3.jpg?v=1746547636",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178369-3500-auto_marino.webp?v=1746547622",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_camiseta-mujer.jpg?v=1756939671"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7859111362734",
+    "name": "Camiseta UV femenina con protección solar Uvpro - Blanco",
+    "price": 64,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179446-3500-auto.webp?v=1746547802",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179446-3500-auto.webp?v=1746547802",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179447-3500-auto.webp?v=1746547802",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179448-3500-auto.webp?v=1746547802",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/C0009_2.jpg?v=1746547802",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/C0009_3.jpg?v=1746547802",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/C0009_1.jpg?v=1746547802",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_camiseta-mujer.jpg?v=1756939671"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8916017676462",
+    "name": "Camiseta UV femenina con protección solar Basic - Celeste",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_Celeste-1.jpg?v=1764193445",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_Celeste-1.jpg?v=1764193445",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_Celeste-2.jpg?v=1764193449",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_Celeste-3.jpg?v=1764193452"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8916017578158",
+    "name": "Camiseta UV femenina con protección solar Basic - Geranio",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_RosadoGeranio-1.jpg?v=1764193394",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_RosadoGeranio-1.jpg?v=1764193394",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_RosadoGeranio-2.jpg?v=1764193394",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/CamisetaBasica_RosadoGeranio-3.jpg?v=1764193394"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7897856311470",
+    "name": "Camiseta UV Kids con protección solar - Marino",
+    "price": 48,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFMARINOFRENTE.jpg?v=1673028035",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFMARINOFRENTE.jpg?v=1673028035",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFMARINOCOSTAS.jpg?v=1673028035",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/guia_infantil-tabela_jpg.webp?v=1673033165"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7897877643438",
+    "name": "Camiseta UV Kids con protección solar - Fucsia",
+    "price": 48,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFPINK.jpg?v=1673032791",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFPINK.jpg?v=1673032791",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/INF.webp?v=1765475706"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8152859279534",
+    "name": "Camiseta UV Baby con protección solar - Marino",
+    "price": 35,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177892-3500-auto.webp?v=1778689776",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177892-3500-auto.webp?v=1778689776",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177894-3500-auto.webp?v=1778689777",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177893-3500-auto.webp?v=1778689776",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_baby.jpg?v=1764967516"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915561840814",
+    "name": "Camiseta UV Baby con protección solar - Malva",
+    "price": 35,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181158-3500-auto_1.webp?v=1763614658",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181158-3500-auto_1.webp?v=1763614658",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181159-3500-auto_1.webp?v=1763614658",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181160-3500-auto_1.webp?v=1763614658",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_baby.jpg?v=1764967516"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7896393384110",
+    "name": "Camiseta UV Baby con protección solar - Rosa",
+    "price": 35,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETABABYMLROSA.jpg?v=1672875539",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETABABYMLROSA.jpg?v=1672875539",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_baby.jpg?v=1764967516"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8741105402030",
+    "name": "Camiseta UV Kids con protección solar - Rosa",
+    "price": 48,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177109-3500-auto.webp?v=1746594005",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177109-3500-auto.webp?v=1746594005",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177110-3500-auto.webp?v=1746594005",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177111-3500-auto.webp?v=1746594005",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177112-3500-auto.webp?v=1746594005",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/INF.webp?v=1765475706"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Polos",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
     "isConjunto": false,
     "isNew": false
   },
@@ -219,85 +779,6 @@
     ],
     "category": "Polos",
     "gender": "Hombre",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8915530842286",
-    "name": "Guantes UV cortos con protección solar - Chocolate",
-    "price": 32,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-1.jpg?v=1764193212",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-1.jpg?v=1764193212",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-2.jpg?v=1764193212",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-3.jpg?v=1764193212",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/GuantesCortosUV_Chocolate-4.jpg?v=1764193212"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "category": "Guantes",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8915559907502",
-    "name": "Gorra UV con protección solar Uvpro - Gris",
-    "price": 32,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177054-3500-auto.webp?v=1763614018",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177054-3500-auto.webp?v=1763614018",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177189-3500-auto.webp?v=1773075744",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177190-3500-auto.webp?v=1773075744"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Gorras",
-    "gender": "Hombre",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": true
-  },
-  {
-    "id": "uv-8422504759470",
-    "name": "Sombrero UV con protección solar Cassis Zebra",
-    "price": 51,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UV_NOV_DIA1_22223.jpg?v=1715989232",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UV_NOV_DIA1_22223.jpg?v=1715989232",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UV_NOV_DIA1_22226.jpg?v=1715989232"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Gorras",
-    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Deportivo",
     "isConjunto": false,
@@ -387,6 +868,619 @@
     "isNew": true
   },
   {
+    "id": "uv-7732740489390",
+    "name": "Sombrero Reversible San Diego Negro/Arena - UV LINE",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17696.jpg?v=1756487162",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17696.jpg?v=1756487162",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17715.jpg?v=1756487162",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17701.jpg?v=1756487162",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17734.jpg?v=1756487162",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17675.jpg?v=1756487162",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010022_CH-CHAPEU-SAN-DIEGO-FEM_PRETO-AREIA_17692.jpg?v=1756487162"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8107721621678",
+    "name": "Visera UV con protección solar Niza - Negro",
+    "price": 44,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177633-3500-auto.webp?v=1739469627",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177633-3500-auto.webp?v=1739469627",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177634-3500-auto.webp?v=1739469627",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177635-3500-auto.webp?v=1739469627"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8107699011758",
+    "name": "Visera UV con protección solar Niza - Arena",
+    "price": 44,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177639-3500-auto.webp?v=1739469392",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177639-3500-auto.webp?v=1739469392",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177640-3500-auto.webp?v=1739469392",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177641-3500-auto.webp?v=1739469392"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8149215150254",
+    "name": "Sombrero California Arena UV LINE",
+    "price": 58,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177596-3500-auto.webp?v=1739470345",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177596-3500-auto.webp?v=1739470345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177595-3500-auto.webp?v=1739470345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177597-3500-auto.webp?v=1739470311"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8107720212654",
+    "name": "Visera UV con protección solar Niza - Marino",
+    "price": 44,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177636-3500-auto.webp?v=1739469392",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177636-3500-auto.webp?v=1739469392",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177637-3500-auto.webp?v=1739469392",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177638-3500-auto.webp?v=1739469392"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8107720638638",
+    "name": "Visera UV con protección solar Niza - Verde militar",
+    "price": 44,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177629-3500-auto.webp?v=1739469493",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177629-3500-auto.webp?v=1739469493",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177630-3500-auto.webp?v=1739469493",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177631-3500-auto.webp?v=1739469493",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/IMG_3449.heic?v=1778521393"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7881139847342",
+    "name": "Sombrero Reversible San Diego Negro/Rosa - UV LINE",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/WhatsAppImage2022-09-13at09.30.37_1.jpg?v=1670640382",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/WhatsAppImage2022-09-13at09.30.37_1.jpg?v=1670640382",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/WhatsAppImage2022-09-13at09.30.37_2.jpg?v=1670640382",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/WhatsAppImage2022-09-13at09.30.37.jpg?v=1670640382"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8428663046318",
+    "name": "Sombrero California Negro UV LINE",
+    "price": 58,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179821-3500-auto_1.webp?v=1739470385",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179821-3500-auto_1.webp?v=1739470385",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179819-3500-auto.webp?v=1739470385",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179820-3500-auto.webp?v=1739470310"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8428662390958",
+    "name": "Sombrero California Marino UV LINE",
+    "price": 58,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179825-3500-auto_1.webp?v=1739470311",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179825-3500-auto_1.webp?v=1739470311",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179823-3500-auto.webp?v=1739470311",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179824-3500-auto.webp?v=1739470311",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179826-3500-auto.webp?v=1774371835"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8107721326766",
+    "name": "Visera UV con protección solar Niza - Blanco",
+    "price": 44,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177642-3500-auto.webp?v=1739469392",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177642-3500-auto.webp?v=1739469392",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177643-3500-auto.webp?v=1739469392",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177644-3500-auto.webp?v=1739469392"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915371524270",
+    "name": "Sombrero Reversible San Diego Arena/Kaki - UV LINE",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17762.jpg?v=1763589951",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17762.jpg?v=1763589951",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17772.jpg?v=1763589951",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17769.jpg?v=1763589951",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17758.jpg?v=1763589226",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17754.jpg?v=1763589226",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Copiade05010022_CHCHAPEUSANDIEGOFEM_AREIAKAKI_17742.jpg?v=1763589226"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8635854749870",
+    "name": "Visera UV con protección solar Brunei - Negro",
+    "price": 54,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UVLINE_VERAO25_DIA1_08010087_VSVISEIRABRUNEIIMPFEM_PRETO_52080.jpg?v=1772815368",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UVLINE_VERAO25_DIA1_08010087_VSVISEIRABRUNEIIMPFEM_PRETO_52080.jpg?v=1772815368",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UVLINE_VERAO25_DIA1_08010087_VSVISEIRABRUNEIIMPFEM_PRETO_52068.jpg?v=1772814876",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UVLINE_VERAO25_DIA1_08010087_VSVISEIRABRUNEIIMPFEM_PRETO_52102.jpg?v=1772814876",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/UVLINE_VERAO25_DIA1_08010087_VSVISEIRABRUNEIIMPFEM_PRETO_52085.jpg?v=1772814876"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915562627246",
+    "name": "Visera UV con protección solar Brunei - Lino",
+    "price": 54,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Artboard4.png?v=1772815322",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Artboard4.png?v=1772815322",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Artboard3.png?v=1772814858",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Artboard2.png?v=1772814858",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Artboard1.png?v=1772814858"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-8427195990190",
+    "name": "Camisa UV con protección solar Copacabana - Arena",
+    "price": 90,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_4_07f86bbf-e6be-45cb-9daa-09888b7b4366.jpg?v=1716224623",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_4_07f86bbf-e6be-45cb-9daa-09888b7b4366.jpg?v=1716224623",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_6_25d493bc-0e03-4f4f-abdd-cc8a5c5fcc15.jpg?v=1716224624",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_5_8dbc2674-bb57-4723-8b04-fca98dcbe799.jpg?v=1716224624",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1.jpg-2_70725a8e-5b8f-46c8-bd37-6122ececfe8e.webp?v=1716224624"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Trajes de Baño",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8636513222830",
+    "name": "Sombrero UV con protección solar Jurere - Arena",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-areia-1.jpg?v=1734048334",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-areia-1.jpg?v=1734048334",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-areia-2.jpg?v=1734048334",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-areia-3.jpg?v=1734048416"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915555942574",
+    "name": "Sombrero UV con protección solar Beverly Hills - Arena",
+    "price": 80,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179032-3500-auto.webp?v=1763613471",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179032-3500-auto.webp?v=1763613471",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179036-3500-auto.webp?v=1763613471",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179035-3500-auto.webp?v=1763613471",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179033-3500-auto.webp?v=1763613471",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179034-3500-auto.webp?v=1763613471"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8636514074798",
+    "name": "Sombrero UV con protección solar Jurere - Trigo",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-trigo-1.jpg?v=1734048680",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-trigo-1.jpg?v=1734048680",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-trigo-2.jpg?v=1734048680",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-trigo-3.jpg?v=1734048680"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8636513648814",
+    "name": "Sombrero UV con protección solar Jurere - Mezcla",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-mescla-1.jpg?v=1734048500",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-mescla-1.jpg?v=1734048500",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-mescla-2.jpg?v=1734048501",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-mescla-3.jpg?v=1734048501"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8636513157294",
+    "name": "Sombrero UV con protección solar Jurere - Negro",
+    "price": 70,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-preto-1.jpg?v=1734048145",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-preto-1.jpg?v=1734048145",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-preto-2.jpg?v=1734048145",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05020045-chchapeujurereimp-preto-3.jpg?v=1734048146"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-9038098530478",
+    "name": "Camisa UV con protección solar Copenhagen - Negro",
+    "price": 83,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189395-3500-auto.webp?v=1772830156",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189395-3500-auto.webp?v=1772830156",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189393-3500-auto.webp?v=1772830156",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189396-3500-auto.webp?v=1772830123",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189394-3500-auto.webp?v=1772830123"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Trajes de Baño",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-9037902282926",
+    "name": "Camisa UV con protección solar Copenhagen - Off White",
+    "price": 83,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179468-3500-auto.webp?v=1772822356",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179468-3500-auto.webp?v=1772822356",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179469-3500-auto.webp?v=1772822356",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179470-3500-auto.webp?v=1772822356",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179471-3500-auto.webp?v=1772822356"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Trajes de Baño",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-9037529940142",
+    "name": "Visera UV con protección solar Brunei - Verde militar",
+    "price": 54,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/190099-3500-auto_22b17b07-c1e8-4af2-a5da-00ac0d46089e.webp?v=1772815270",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/190099-3500-auto_22b17b07-c1e8-4af2-a5da-00ac0d46089e.webp?v=1772815270",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/190100-3500-auto.webp?v=1772815270",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/190098-3500-auto.webp?v=1772815270"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-9095278887086",
+    "name": "Camisa UV con protección solar Copenhagen - Marino",
+    "price": 83,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184786-3500-auto.webp?v=1777411597",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184786-3500-auto.webp?v=1777411597",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184788-3500-auto.webp?v=1777411597",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184787-3500-auto.webp?v=1777411597",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184785-3500-auto.webp?v=1777411597"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "category": "Trajes de Baño",
+    "gender": "Niños",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
     "id": "uv-7733399650478",
     "name": "Gorra UV Legionario con protección solar Basic Kids - Marino",
     "price": 38,
@@ -405,34 +1499,6 @@
       "L"
     ],
     "category": "Gorras",
-    "gender": "Niños",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-7897856311470",
-    "name": "Camiseta UV Kids con protección solar - Marino",
-    "price": 48,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFMARINOFRENTE.jpg?v=1673028035",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFMARINOFRENTE.jpg?v=1673028035",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFMARINOCOSTAS.jpg?v=1673028035",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/guia_infantil-tabela_jpg.webp?v=1673033165"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Polos",
     "gender": "Niños",
     "upf": "UPF 50+",
     "activity": "Deportivo",
@@ -466,14 +1532,14 @@
     "isNew": false
   },
   {
-    "id": "uv-8068267475118",
-    "name": "Sombrero Basic Kids Fucsia UV LINE",
-    "price": 38,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_2.jpg?v=1734447973",
+    "id": "uv-7862252732590",
+    "name": "Visera UV con protección solar Capri - Negro",
+    "price": 57,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-preto-2.jpg?v=1734054293",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_2.jpg?v=1734447973",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_3.jpg?v=1734447985",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/05010017060ChapeuInfBasicKidsRosa_1.jpg?v=1734447985"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-preto-2.jpg?v=1734054293",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-preto-4.jpg?v=1739469731",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-preto-3.jpg?v=1739469731"
     ],
     "colors": [
       "#0B1F3A",
@@ -485,51 +1551,21 @@
       "L"
     ],
     "category": "Gorras",
-    "gender": "Niños",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Deportivo",
     "isConjunto": false,
     "isNew": false
   },
   {
-    "id": "uv-7897877643438",
-    "name": "Camiseta UV Kids con protección solar - Fucsia",
-    "price": 48,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFPINK.jpg?v=1673032791",
+    "id": "uv-8474810089646",
+    "name": "Visera UV con protección solar Capri - Arena",
+    "price": 57,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-areia-2.jpg?v=1734054485",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETAUVPROMLINFPINK.jpg?v=1673032791",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/INF.webp?v=1765475706"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Polos",
-    "gender": "Niños",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8740728963246",
-    "name": "Sombrero UV Infantil con protección solar California - Marino/Verde Agua",
-    "price": 51,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178042-3500-auto_cali_verde.webp?v=1746547424",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178042-3500-auto_cali_verde.webp?v=1746547424",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178046-3500-auto_cali_verde.webp?v=1771878345",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178043-3500-auto_cali_verde.webp?v=1771878345",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178044-3500-auto_cali_verde.webp?v=1771878345",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178045-3500-auto_cali_verde.webp?v=1771878345",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178047-3500-auto_cali_verde.webp?v=1746547424"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-areia-2.jpg?v=1734054485",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-areia-3.jpg?v=1734054484",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08020006-vsviseiracapri-areia-4.jpg?v=1734054484"
     ],
     "colors": [
       "#0B1F3A",
@@ -541,51 +1577,21 @@
       "L"
     ],
     "category": "Gorras",
-    "gender": "Niños",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8152859279534",
-    "name": "Camiseta UV Baby con protección solar - Marino",
-    "price": 35,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177892-3500-auto.webp?v=1778689776",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177892-3500-auto.webp?v=1778689776",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177894-3500-auto.webp?v=1778689777",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177893-3500-auto.webp?v=1778689776",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_baby.jpg?v=1764967516"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Polos",
-    "gender": "Niños",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Deportivo",
     "isConjunto": false,
     "isNew": false
   },
   {
-    "id": "uv-8915561447598",
-    "name": "Sombrero UV Infantil con protección solar California - Marino/Lago",
-    "price": 51,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-1.jpg?v=1764193540",
+    "id": "uv-8474810155182",
+    "name": "Visera UV con protección solar Capri - Marino",
+    "price": 57,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/02_a8adddf2-326d-4f73-a93a-46f740cc9bd8.jpg?v=1764368242",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-1.jpg?v=1764193540",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-2.jpg?v=1764193542",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-3.jpg?v=1764193545",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-4.jpg?v=1764193548"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/02_a8adddf2-326d-4f73-a93a-46f740cc9bd8.jpg?v=1764368242",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/03_2.jpg?v=1764368242",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/01_96b9e774-4c8a-4e04-b735-f3596882215f.jpg?v=1764367103"
     ],
     "colors": [
       "#0B1F3A",
@@ -597,11 +1603,251 @@
       "L"
     ],
     "category": "Gorras",
-    "gender": "Niños",
+    "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Outdoor",
+    "activity": "Deportivo",
     "isConjunto": false,
     "isNew": false
+  },
+  {
+    "id": "uv-8146590073006",
+    "name": "Visera UV con protección solar Leblon Arena",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-areia-2.jpg?v=1739470043",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-areia-2.jpg?v=1739470043",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-areia-1.jpg?v=1739470043",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-areia-3.jpg?v=1734053117"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-7874649489582",
+    "name": "Visera Pontal Gris UV LINE",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185893-3500-auto_986d8642-f877-48f0-93c4-fa53ad33d042.webp?v=1773428801",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185893-3500-auto_986d8642-f877-48f0-93c4-fa53ad33d042.webp?v=1773428801",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185895-3500-auto_58e79bbf-f045-44f5-ae9a-7d2df90ca8ac.webp?v=1773428801",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185894-3500-auto_a5f6398f-1be2-4f50-8634-155e08e3e669.webp?v=1773428801"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8428072566958",
+    "name": "Visera UV con protección solar Leblon Negro",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/175666-3500-auto.webp?v=1739469933",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/175666-3500-auto.webp?v=1739469933",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/175667-3500-auto.webp?v=1739469933",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/175668-3500-auto.webp?v=1739469934"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8915549618350",
+    "name": "Visera UV con protección solar Bali reversible - Negro/arena",
+    "price": 60,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185923-3500-auto_1.webp?v=1763612555",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185923-3500-auto_1.webp?v=1763612555",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185926-3500-auto_1.webp?v=1772839372",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185922-3500-auto_1.webp?v=1772839372",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185924-3500-auto_1.webp?v=1772839372",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185925-3500-auto_1.webp?v=1763612555",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185927-3500-auto_1.webp?v=1763612555"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-8636545335470",
+    "name": "Visera UV con protección solar Leblon Azul Marino",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-marinho-2.jpg?v=1739470037",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-marinho-2.jpg?v=1739470037",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-marinho-1.jpg?v=1739470037",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010063-vsleblon2020-marinho-3.jpg?v=1734053221"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-8636547793070",
+    "name": "Visera UV con protección solar Leblon Verde Militar",
+    "price": 41,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/175669-3500-auto.png?v=1734053985",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/175669-3500-auto.png?v=1734053985",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/08010024ViseiraLeblonMilitar_3.jpg?v=1734053985"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "uv-9037590626478",
+    "name": "Visera UV con protección solar Bali reversible - Marino/Celeste",
+    "price": 60,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185916-3500-auto.webp?v=1772815572",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185916-3500-auto.webp?v=1772815572",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185920-3500-auto.webp?v=1772815721",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185917-3500-auto.webp?v=1772815721",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185919-3500-auto.webp?v=1772815721",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185918-3500-auto.webp?v=1772815721",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/185921-3500-auto.webp?v=1772815571"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-8106974052526",
+    "name": "Gorra UV con protección solar Uvpro - Negro",
+    "price": 32,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176108-3500-auto.webp?v=1773075791",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176108-3500-auto.webp?v=1773075791",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176109-3500-auto.webp?v=1773075791",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176110-3500-auto.webp?v=1773075791",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/2_1.png?v=1776178885"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": true
+  },
+  {
+    "id": "uv-8915559907502",
+    "name": "Gorra UV con protección solar Uvpro - Gris",
+    "price": 32,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177054-3500-auto.webp?v=1763614018",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177054-3500-auto.webp?v=1763614018",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177189-3500-auto.webp?v=1773075744",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177190-3500-auto.webp?v=1773075744"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Deportivo",
+    "isConjunto": false,
+    "isNew": true
   },
   {
     "id": "uv-8422511837358",
@@ -664,126 +1910,15 @@
     "isNew": true
   },
   {
-    "id": "uv-8915561840814",
-    "name": "Camiseta UV Baby con protección solar - Malva",
-    "price": 35,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181158-3500-auto_1.webp?v=1763614658",
+    "id": "uv-9095276888238",
+    "name": "Pantalón UV con protección solar Basic - Negro",
+    "price": 73,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184920-3500-auto.webp?v=1777411314",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181158-3500-auto_1.webp?v=1763614658",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181159-3500-auto_1.webp?v=1763614658",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/181160-3500-auto_1.webp?v=1763614658",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_baby.jpg?v=1764967516"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Polos",
-    "gender": "Niños",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-7896393384110",
-    "name": "Camiseta UV Baby con protección solar - Rosa",
-    "price": 35,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETABABYMLROSA.jpg?v=1672875539",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/products/CAMISETABABYMLROSA.jpg?v=1672875539",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_baby.jpg?v=1764967516"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Polos",
-    "gender": "Niños",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8741105402030",
-    "name": "Camiseta UV Kids con protección solar - Rosa",
-    "price": 48,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177109-3500-auto.webp?v=1746594005",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177109-3500-auto.webp?v=1746594005",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177110-3500-auto.webp?v=1746594005",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177111-3500-auto.webp?v=1746594005",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/177112-3500-auto.webp?v=1746594005",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/INF.webp?v=1765475706"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L"
-    ],
-    "category": "Polos",
-    "gender": "Niños",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-7881771090094",
-    "name": "Guantes UV dedos largos con protección solar - Beige",
-    "price": 38,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176595-3500-auto.webp?v=1739470749",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176595-3500-auto.webp?v=1739470749",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176596-3500-auto.webp?v=1739470749",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176597-3500-auto.webp?v=1739470749",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/LUANTE_DEDOSLARGOS_GUIATAMANOS.png?v=1739470749"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "M"
-    ],
-    "category": "Guantes",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-7982473019566",
-    "name": "Manguita UV con protección solar - Beige",
-    "price": 45,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176656-3500-auto.webp?v=1739471159",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176656-3500-auto.webp?v=1739471159",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176657-3500-auto.webp?v=1739471159",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176658-3500-auto.webp?v=1739471159",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_2.jpg?v=1756936097"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184920-3500-auto.webp?v=1777411314",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184923-3500-auto.webp?v=1777411276",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184921-3500-auto.webp?v=1777411345",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1_jpg_32581a20-c3db-4119-adb2-7ed045726f68.webp?v=1772839624"
     ],
     "colors": [
       "#0B1F3A",
@@ -793,23 +1928,23 @@
     "sizes": [
       "M"
     ],
-    "category": "Accesorios",
+    "category": "Pantalones",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Outdoor",
+    "activity": "Deportivo",
     "isConjunto": false,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "uv-7982511423662",
-    "name": "Manguita UV con protección solar - Negra",
-    "price": 45,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176618-3500-auto.webp?v=1739471124",
+    "id": "uv-9038229831854",
+    "name": "Pantalón UV con protección solar Basic - Marino UV LINE",
+    "price": 73,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184896-3500-auto.webp?v=1772839624",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176618-3500-auto.webp?v=1739471124",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176622-3500-auto.webp?v=1739471124",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176621-3500-auto.webp?v=1739471124",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080x1080px_2.jpg?v=1756936097"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184896-3500-auto.webp?v=1772839624",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184900-3500-auto.webp?v=1772839624",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/184898-3500-auto_1.webp?v=1772839624",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1_jpg_32581a20-c3db-4119-adb2-7ed045726f68.webp?v=1772839624"
     ],
     "colors": [
       "#0B1F3A",
@@ -819,106 +1954,27 @@
     "sizes": [
       "M"
     ],
-    "category": "Accesorios",
+    "category": "Pantalones",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8915546669230",
-    "name": "Guantes UV dedos largos con protección solar - Negro",
-    "price": 38,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/WhatsAppImage2025-11-19at11.29.21PM.jpg?v=1763613138",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/WhatsAppImage2025-11-19at11.29.21PM.jpg?v=1763613138",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/92a52a1c-2c6b-4f5d-89a2-e0cae5222ef2.jpg?v=1763613138",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/dada469b-d098-4e08-806c-74f3892d0a01.jpg?v=1763613138",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/340e0f54-7103-40ab-9cab-041cae09b144.jpg?v=1763613138"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "M"
-    ],
-    "category": "Guantes",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8262999802030",
-    "name": "Hat Clip UV LINE",
-    "price": 15,
-    "originalPrice": 19,
-    "discount": 20,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/DAD24E66-5517-4D73-93EC-D323AA419904.jpg?v=1762612702",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/DAD24E66-5517-4D73-93EC-D323AA419904.jpg?v=1762612702",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/9EDDDDFB-0081-454E-BD25-1A39C40B8655.jpg?v=1762612702",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Beige.jpg?v=1762546827",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/01_23.jpg?v=1762546827",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/ChatGPT_Image_4_may_2026_10_59_31_a.m..png?v=1777910408"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "category": "Accesorios",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
     "activity": "Deportivo",
     "isConjunto": false,
-    "isNew": false
+    "isNew": true
   },
   {
-    "id": "uv-8740727554222",
-    "name": "Guantes UV Largos con protección solar - Negro",
-    "price": 45,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176632-3500-autonegro.webp?v=1746546827",
+    "id": "uv-9038111342766",
+    "name": "Ropa de Baño UV Mirela Reversible - Malva/negro",
+    "price": 90,
+    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191481-3500-auto.webp?v=1772831141",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176632-3500-autonegro.webp?v=1746546827",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176631-3500-autonegro.webp?v=1746546827",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176630-3500-autonegro.webp?v=1746546827",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176629-3500-autonegro.webp?v=1746546827",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080X1080PX.jpg?v=1756936159"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "M"
-    ],
-    "category": "Guantes",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8639692439726",
-    "name": "Cuellera Maxi Negra UV LINE",
-    "price": 35,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-4.jpg?v=1734453729",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-4.jpg?v=1734453729",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-5.jpg?v=1734453729",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-6.jpg?v=1734453729",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/10060020-glbalaclavauni-preto-7.jpg?v=1734453729"
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191481-3500-auto.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191486-3500-auto.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191487-3500-auto.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191484-3500-auto.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191488-3500-auto_1.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191490-3500-auto.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191491-3500-auto.webp?v=1772831141",
+      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/191489-3500-auto.webp?v=1772831141"
     ],
     "colors": [
       "#0B1F3A",
@@ -927,122 +1983,14 @@
     ],
     "sizes": [
       "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "category": "Accesorios",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8915535724718",
-    "name": "Guantes UV Largos con protección solar - Chocolate",
-    "price": 45,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189682-3500-auto.webp?v=1763610825",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189682-3500-auto.webp?v=1763610825",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189683-3500-auto.webp?v=1763610825",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189684-3500-auto.webp?v=1763610825",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/189685-3500-auto.webp?v=1763610825"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
       "M"
     ],
-    "category": "Guantes",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8740727423150",
-    "name": "Guantes UV Largos con protección solar - Beige",
-    "price": 45,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179964-3500-auto.webp?v=1746546681",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179964-3500-auto.webp?v=1746546681",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179963-3500-auto.webp?v=1746546681",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/179962-3500-auto.webp?v=1746546681",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/1080X1080PX.jpg?v=1756936159"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "M"
-    ],
-    "category": "Guantes",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Outdoor",
-    "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8636991471790",
-    "name": "Pareo Lisa Fem Marino UV LINE",
-    "price": 36,
-    "originalPrice": 48,
-    "discount": 25,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_3.jpg?v=1734103811",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_3.jpg?v=1734103811",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_2.jpg?v=1734103811",
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_1.jpg?v=1734103811"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "category": "Accesorios",
+    "category": "Trajes de Baño",
     "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Playa",
     "isConjunto": false,
-    "isNew": false
-  },
-  {
-    "id": "uv-8698220478638",
-    "name": "Estuche UV LINE",
-    "price": 19,
-    "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Estuceh_UV.png?v=1741373213",
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/Estuceh_UV.png?v=1741373213"
-    ],
-    "colors": [
-      "#0B1F3A",
-      "#A9D6FF",
-      "#FFFFFF"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "category": "Accesorios",
-    "gender": "Unisex",
-    "upf": "UPF 50+",
-    "activity": "Deportivo",
-    "isConjunto": false,
-    "isNew": false
+    "isNew": true
   },
   {
     "id": "trek-sombrero-proteccion-solar-mt500-forclaz",
@@ -1077,7 +2025,7 @@
   },
   {
     "id": "trek-sombrero-proteccion-solar-mt500-forclaz-2",
-    "name": "Sombrero protección solar MT500 Forclaz - Beige",
+    "name": "Sombrero protección solar MT500 Forclaz",
     "price": 48,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-46-10-600x600.jpg.webp",
     "images": [
@@ -1110,7 +2058,7 @@
   },
   {
     "id": "trek-gorra-proteccion-solar-desmontable-forclaz-900",
-    "name": "Gorra protección solar Desmontable Forclaz 900",
+    "name": "GORRA PROTECCIÓN SOLAR DESMONTABLE FORCLAZ 900",
     "price": 45,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-25-8-600x600.jpg.webp",
     "images": [
@@ -1145,10 +2093,8 @@
   },
   {
     "id": "trek-camiseta-proteccion-solar-kalenji-upf50",
-    "name": "Camiseta protección solar Kalenji UPF 50+",
-    "price": 34,
-    "originalPrice": 42,
-    "discount": 20,
+    "name": "CAMISETA PROTECCIÓN SOLAR KALENJI (UPF50+)",
+    "price": 42,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/Negro-ML-1-600x600.jpg.webp",
     "images": [
       "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/Negro-ML-1-600x600.jpg.webp",
@@ -1180,10 +2126,8 @@
   },
   {
     "id": "trek-camiseta-proteccion-solar-olaian-upf50-3",
-    "name": "Camiseta protección solar Olaian UPF 50+ - Negro",
-    "price": 26,
-    "originalPrice": 31,
-    "discount": 15,
+    "name": "CAMISETA PROTECCIÓN SOLAR OLAIAN (UPF50+)",
+    "price": 31,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-5-600x600.jpg.webp",
     "images": [
       "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-5-600x600.jpg.webp",
@@ -1213,16 +2157,14 @@
     "category": "Polos",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Outdoor",
+    "activity": "Playa",
     "isConjunto": false,
     "isNew": false
   },
   {
     "id": "trek-camiseta-proteccion-solar-olaian-upf50-4",
-    "name": "Camiseta protección solar Olaian UPF 50+ - Blanco",
-    "price": 25,
-    "originalPrice": 29,
-    "discount": 15,
+    "name": "CAMISETA PROTECCIÓN SOLAR OLAIAN (UPF50+)",
+    "price": 29,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-7-600x600.jpg.webp",
     "images": [
       "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-7-600x600.jpg.webp",
@@ -1252,7 +2194,1770 @@
     "category": "Polos",
     "gender": "Mujer",
     "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-parka-impermeable-y-termico-sh900-20o-quechua",
+    "name": "Parka impermeable y térmico SH900 (-20º) Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/SH900Azul-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/SH900Azul-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/SH900Azul-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Sin-titulo-8.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
     "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impermeable-y-termico-jkt100-wedze",
+    "name": "Casaca impermeable y térmico JKT100 Wed’ze",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-10-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-10.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Jkt100-negro-12.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impermeable-sh100-xwarm-quechua-10-c",
+    "name": "Casaca impermeable SH100 Xwarm Quechua (-10 °C)",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-70-5-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-70-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-70-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/SH100XW-Negrol-9.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impecable-y-termica-mh500-quechua",
+    "name": "Casaca impecable y térmica MH500 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-5-7-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-5-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-3-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-4-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-6-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-7-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-8-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-9-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-10-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-11-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-5-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-3-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-4-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-6-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-7-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-8-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-9-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-10-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-11-5.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-3-en-1-impermeable-travel-100-forclaz-0-c",
+    "name": "Casaca 3 en 1 impermeable travel 100 Forclaz (0 °C)",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-3-10-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-3-10-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Rojo-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-4-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-5-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-6-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-7-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-8-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-9-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-10-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-11-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-3-10.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Rojo-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-4-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-5-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-6-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-7-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-8-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-9-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-10-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-11-8.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-plumifero-trekking-forclaz-trek-500",
+    "name": "Casaca de plumas (-10ºC) Trek 500 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/2024-Negro-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/2024-Negro-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/2024-Negro-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-46-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-59-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-50-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-49-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-51-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-53-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-45-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-44-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-43-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/2024-Negro-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/2024-Negro-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/2024-Negro-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/12/PLUMUFERO-MT500-FORCLAZ-NEGRO-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-46-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-59-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-50-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-49-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-51-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-53-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-45-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-44-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-43-2.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impermeable-3-en-1-0-c-travel-100-forclaz",
+    "name": "Casaca impermeable 3 en 1 (0 °C) Travel 100 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-9-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-37-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-41-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-40-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-10-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-37-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-41-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-40-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-10.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-de-plumas-10oc-trek500-forclaz",
+    "name": "Casaca de plumas (-10ºC) Trek500 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-46-2-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-46-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-43-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-53-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-59-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-51-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-50-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-49-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-45-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-44-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-46-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-43-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-53-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-59-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-51-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-50-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-49-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-45-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-44-2.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-softshell-trek500-forclaz",
+    "name": "Casaca softshell Trek500 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-57-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-57-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-54-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-48-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-60-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-59-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-56-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-55-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-57.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-54-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-48-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-60-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-59-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-56.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-55-1.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-botas-impermeables-nieve-mh100-quechua",
+    "name": "Botas impermeables nieve MH100 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Botas-Imperm-MH100-negro-3.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impermeable-y-termica-nh500-quechua-10-c",
+    "name": "Casaca impermeable y térmica NH500 Quechua (-10° C)",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-2-600x600.jpg",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/Azul-6.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-de-plumas-5oc-mt100-forclaz",
+    "name": "Casaca de Plumas (-5ºC) MT100 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Plumif-MT100-Azul-7.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-calida-impermeable-trekking-nieve-quechua-sh500-x-warm-hombre-negro-10-c",
+    "name": "CASACA CÁLIDA IMPERMEABLE TREKKING NIEVE QUECHUA SH500 X-WARM HOMBRE NEGRO (-10 °C)",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-166-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-166-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-165-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-190-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-169-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-167-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-168-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-166.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-165.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-190.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-169.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-167.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-168.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impermeable-y-termica-nh500-quechua-10-c-2",
+    "name": "Casaca impermeable y térmica NH500 Quechua (-10° C)",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/11/mARRoN-7.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-de-plumas-trek-100-forclaz-5-c",
+    "name": "Casaca de plumas Trek 100 Forclaz (-5 °C)",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-3-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-37-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-47-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-42-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-41-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-40-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-37-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-47-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-42-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-41-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-40-1.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-casaca-impermeable-mh150-quechua",
+    "name": "Casaca impermeable MH150 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-29-4-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-29-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-36-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-35-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-33-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-23-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-30-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-31-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-29-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-36-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-35-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-33-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-23-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-30-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-31-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-5.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Casacas",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-pantalon-cargo-desmontable-nh500-forclaz",
+    "name": "Pantalón cargo desmontable NH500 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/08/NH500-verde-caqui-7.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Pantalones",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-sandalia-trekking-nh120-piel-quechua",
+    "name": "SANDALIA TREKKING NH120 PIEL QUECHUA",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-6-13-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-6-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-3-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-2-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-7-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-8-15-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-9-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-10-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/05/Sandalias-Quechua-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-6-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-3-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-2-12.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-7-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-8-15.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-9-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-10-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/05/Sandalias-Quechua.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-sandalia-trekking-nh120-piel-quechua-2",
+    "name": "SANDALIA TREKKING NH120 PIEL QUECHUA",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-19-12-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-19-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-11-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-13-16-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-14-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-15-15-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-20-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-21-13-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/05/Sandalias-Quechua-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-19-12.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-11-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-13-16.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-14-12.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-15-15.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-20-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-21-13.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-12.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/05/Sandalias-Quechua.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-pantalon-cargo-desmontable-travel100-forclaz",
+    "name": "Pantalón cargo desmontable Travel100 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-35-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-37-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-36-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-52-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-35-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-37-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-36-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-38-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-39-1.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Pantalones",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-fotocromaticas-mh570-quechua",
+    "name": "Lentes de sol fotocromáticas MH570 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-1.1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-1.1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-1.1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Fotocrom-MH570-Gris-asfalto-8.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-polarizadas-cat-4-mh580-quechua",
+    "name": "Lentes de sol polarizadas cat. 4 MH580 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-1.1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-1.1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-1.1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Gris-9.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-polarizadas-cat-4-mh580-quechua-2",
+    "name": "Lentes de sol polarizadas cat. 4 MH580 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH580-Azul-2.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-baston-ultra-compacto-mt900-forclaz",
+    "name": "Bastón Ultra compacto MT900 Forclaz",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MT900-Plegable-negro-6.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-polarizadas-cat-3-mh530-quechua",
+    "name": "Lentes de sol polarizadas cat.3 MH530 Quechua",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Sin-titulo-36-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Sin-titulo-36-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Sin-titulo-36.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/Negro-A-Gris-asfalto-9.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-baston-antishock-mt500-forclaz",
+    "name": "BASTÓN ANTISHOCK MT500 FORCLAZ",
+    "price": 86,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-89-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-89-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-90-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-91-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-92-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-93-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-89-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-90-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-91-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-92-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-93-1.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-polarizadas-mh530w-cat-3-quechua",
+    "name": "LENTES DE SOL POLARIZADAS MH530W CAT.3 Quechua",
+    "price": 83,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-54-3-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-54-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-55-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-28-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-59-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-58-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-56-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-57-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-54-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-55-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-28-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-59-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-58-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-56-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-57-5.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-bastones-antishock-nomad-boriken-lote-x-2",
+    "name": "BASTONES  ANTISHOCK NOMAD BORIKEN LOTE X 2",
+    "price": 80,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-28-8-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-28-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-20-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-19-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-28-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-20-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-19-8.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-funda-impermeable-mochila-40-60l-forclaz",
+    "name": "FUNDA IMPERMEABLE MOCHILA 40-60L FORCLAZ",
+    "price": 77,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-16-6-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-16-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-17-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-18-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-19-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-20-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-16-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-6.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-17-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-18-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-19-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-20-6.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-sombrero-antimosquitos-tropic900-forclaz",
+    "name": "Sombrero antimosquitos Tropic900 Forclaz",
+    "price": 64,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-4-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/01/Verde-caqui-6.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-pantos-cat-3-mh160-quechua",
+    "name": "Lentes de sol Pantos cat. 3 MH160 Quechua",
+    "price": 61,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-8-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-6-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-8.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/07/MH160-Pantos-negro-6.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-mh530-cat-3-quechua",
+    "name": "LENTES DE SOL MH530 CAT. 3 QUECHUA",
+    "price": 67,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-45-5-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-45-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-46-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-47-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-48-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-49-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-50-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-51-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-45-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-46-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-47-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-48-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-49-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-50-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-51-4.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-running-jog500-cat-3-kalenji",
+    "name": "LENTES DE SOL RUNNING JOG500 CAT.3 KALENJI",
+    "price": 61,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-12-5-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-12-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-13-7-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-8-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-9-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-7-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-10-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-6-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-12-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-13-7.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-8-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-9-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-7-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-10-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-6-4.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-mh140-cat-3-quechua",
+    "name": "LENTES DE SOL MH140 CAT.3 QUECHUA",
+    "price": 58,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-37-3-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-37-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-38-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-35-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-34-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-37-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-38-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-35-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-34-3.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-lentes-de-sol-running-runstyle-cat-3-kalenji",
+    "name": "LENTES DE SOL RUNNING RUNSTYLE CAT. 3 KALENJI",
+    "price": 58,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-150-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-150-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-108-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-108k-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-148-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-152-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-153-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-154-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-137-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-138-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-150.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-108-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-108k.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-148.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-152.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-153.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-154.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-137-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-138-1.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-baston-ergonomico-cana-mt100-forclaz",
+    "name": "BASTÓN ERGONÓMICO CAÑA MT100 FORCLAZ",
+    "price": 58,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-2-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-24-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-25-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-26-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-20-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-23-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-24-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-25-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-26-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-20-2.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-baston-ergonomico-cana-mt100-forclaz-2",
+    "name": "BASTÓN ERGONÓMICO CAÑA MT100 FORCLAZ",
+    "price": 58,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-28-2-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-28-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-29-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-30-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-31-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-28-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-29-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-30-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-31-2.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-baston-ergonomico-tipo-cana-boriken",
+    "name": "BASTÓN ERGONÓMICO TIPO CAÑA BORIKEN",
+    "price": 54,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-21-9-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-21-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-22-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-21-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-22-9.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-medias-de-lana-merina-caza-stat-900-solognac",
+    "name": "MEDIAS DE LANA MERINA CAZA STAT 900 SOLOGNAC",
+    "price": 54,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-155-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-155-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-156-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-157-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-158-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-159-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-155-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-156-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-157-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-158-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-159-1.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-baston-de-trekking-boriken",
+    "name": "BASTÓN DE TREKKING BORIKEN",
+    "price": 54,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-23-9-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-23-9-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/bast-n-trekking-boriken_negro_1-removebg-preview.png.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-14-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-15-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-23-9.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-14-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-15-11.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Accesorios",
+    "gender": "Unisex",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-pantalon-silver-ridge-convertible-pant-para-hombre",
+    "name": "Pantalón Silver Ridge™ convertible Para Hombre Columbia",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Pant-Silver-Ridge-Tranf-verde-4.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Pantalones",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-camisa-manga-larga-silver-ridge-2-0-columbia-anti-uv",
+    "name": "Camisa Manga Larga Silver Ridge™ 2.0 Columbia Anti-UV",
+    "price": 90,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-2.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-3.jpg",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2025/11/Camisa-ML-Silver-Ridge-Azul-4.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Polos",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-sombrero-proteccion-solar-mt500-forclaz-3",
+    "name": "Sombrero protección solar MT500 Forclaz",
+    "price": 48,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-16-14-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-16-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-17-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-18-10-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-16-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-17-12.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-18-10.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "Gorras",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Outdoor",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-camiseta-proteccion-solar-dry500-kiprun-upf50",
+    "name": "CAMISETA PROTECCIÓN SOLAR DRY500 KIPRUN (UPF50+)",
+    "price": 45,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-1-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-1-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-4-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-3-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-5-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-2-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-1.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-4.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-3.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-5.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/ML-Negro-2.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Polos",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-camiseta-proteccion-solar-olaian-upf50",
+    "name": "CAMISETA PROTECCIÓN SOLAR OLAIAN (UPF50+)",
+    "price": 41,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-4-14-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-4-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-35-11-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-33-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-34-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-3-17-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-2-16-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-1-17-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-4-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-35-11.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-33-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-34-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-3-17.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-2-16.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-1-17.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Polos",
+    "gender": "Hombre",
+    "upf": "UPF 50+",
+    "activity": "Playa",
+    "isConjunto": false,
+    "isNew": false
+  },
+  {
+    "id": "trek-camiseta-proteccion-solar-olaian-upf50-2",
+    "name": "CAMISETA PROTECCIÓN SOLAR OLAIAN (UPF50+)",
+    "price": 32,
+    "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-36-12-600x600.jpg.webp",
+    "images": [
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-36-12-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-29-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-32-15-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-30-14-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-31-15-600x600.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-36-12.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-29-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-32-15.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-30-14.jpg.webp",
+      "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-31-15.jpg.webp"
+    ],
+    "colors": [
+      "#0B1F3A",
+      "#A9D6FF",
+      "#FFFFFF"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "Shorts",
+    "gender": "Mujer",
+    "upf": "UPF 50+",
+    "activity": "Playa",
     "isConjunto": false,
     "isNew": false
   }

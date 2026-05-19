@@ -172,7 +172,7 @@ export function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img
-                src="/img/SolarWear_Logo.jpeg"
+                src="/img/SolarWear_logo.jpeg"
                 alt="SolarWear"
                 className="h-14 sm:h-16 w-auto object-contain mix-blend-multiply"
               />
@@ -388,7 +388,7 @@ export function Navbar() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-50 bg-white flex flex-col lg:hidden">
           <div className="flex items-center justify-between p-6 border-b border-slate-100">
-            <img src="/img/SolarWear_Logo.jpeg" alt="SolarWear" className="h-10 w-auto object-contain" />
+            <img src="/img/SolarWear_logo.jpeg" alt="SolarWear" className="h-10 w-auto object-contain" />
             <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-navy">
               <X strokeWidth={1.5} className="w-6 h-6" />
             </button>
