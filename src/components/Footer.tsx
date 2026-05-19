@@ -30,7 +30,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:pr-8">
             <Link to="/" className="block mb-6">
-              <img src="/img/SolarWear.jpeg" alt="SolarWear" className="h-10 w-auto object-contain" />
+              <img src="/img/SolarWear_Logo.jpeg" alt="SolarWear" className="h-10 w-auto object-contain" />
             </Link>
             <p className="text-slate-400 text-sm font-light leading-relaxed mb-6">
               Diseño minimalista y protección UV avanzada para acompañarte en todas tus aventuras al aire libre.
@@ -155,7 +155,7 @@ export function Footer() {
         >
           {/* Email header */}
           <div className="bg-navy px-6 py-5 flex items-center justify-between">
-            <img src="/img/SolarWear.jpeg" alt="SolarWear" className="h-8 w-auto object-contain brightness-0 invert" />
+            <img src="/img/SolarWear_Logo.jpeg" alt="SolarWear" className="h-8 w-auto object-contain brightness-0 invert" />
             <button onClick={handleCloseModal} className="text-white/70 hover:text-white transition-colors">
               <X strokeWidth={1.5} className="w-5 h-5" />
             </button>

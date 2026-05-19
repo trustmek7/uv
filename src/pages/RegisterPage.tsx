@@ -56,7 +56,7 @@ export function RegisterPage() {
       {/* Left — image */}
       <div className="hidden lg:block lg:w-1/2 relative overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1200"
+          src="/img/SolarWear_portada.jpeg"
           alt="SolarWear lifestyle"
           className="w-full h-full object-cover"
         />
