@@ -17,9 +17,7 @@ const EMPTY_FILTERS: FilterState = {
   category: [],
   upf: [],
   activity: [],
-  conjuntos: [],
-  ropaDeBano: [],
-  priceRange: [0, 500],
+  priceRange: [0, 100],
 };
 
 const sortLabels: Record<SortOption, string> = {

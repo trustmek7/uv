@@ -24,7 +24,5 @@ export interface FilterState {
   category: string[];
   upf: string[];
   activity: string[];
-  conjuntos: string[];
-  ropaDeBano: string[];
   priceRange: [number, number];
 }

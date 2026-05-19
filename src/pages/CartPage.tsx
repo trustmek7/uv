@@ -4,7 +4,7 @@ import { Trash2, Plus, Minus, ShoppingBag, ArrowRight, ChevronRight } from 'luci
 import { useCart } from '../context/CartContext';
 import { toast } from 'sonner';
 
-const SHIPPING_THRESHOLD = 199;
+const SHIPPING_THRESHOLD = 99;
 
 export function CartPage() {
   const { items, removeItem, updateQuantity, total, count } = useCart();

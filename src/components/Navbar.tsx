@@ -165,7 +165,7 @@ export function Navbar() {
         {/* Announcement bar */}
         <div className="bg-navy text-white py-2 px-4 text-center">
           <p className="text-[10px] uppercase tracking-widest font-medium">
-            Envío gratis en compras desde S/ 199 &nbsp;·&nbsp; Tecnología UPF 50+ certificada
+            Envío gratis en compras desde S/ 99 &nbsp;·&nbsp; Tecnología UPF 50+ certificada
           </p>
         </div>
 

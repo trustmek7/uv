@@ -3,27 +3,63 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import puppeteer from 'puppeteer';
 
-const UVLINE_COLLECTIONS = [
-  {
-    name: 'mujer',
-    url: 'https://www.uvline.com.pe/collections/ropa-mujeres-1/products.json'
-  },
-  {
-    name: 'hombre',
-    url: 'https://www.uvline.com.pe/collections/hombres/products.json'
-  },
-  {
-    name: 'ninos',
-    url: 'https://www.uvline.com.pe/collections/ninos/products.json'
-  },
-  {
-    name: 'accesorios',
-    url: 'https://www.uvline.com.pe/collections/accesorios/products.json'
-  }
+// ---------------------------------------------------------------------------
+// UVLine: auto-discover ALL collections via Shopify API
+// ---------------------------------------------------------------------------
+const UVLINE_BASE = 'https://www.uvline.com.pe';
+
+// Map collection handle fragments → gender bucket
+const COLLECTION_GENDER_MAP = [
+  { pattern: /mujer|femenin|women|woman/i, gender: 'mujer' },
+  { pattern: /hombre|masculin|men(?!u)|man(?!ga)/i, gender: 'hombre' },
+  { pattern: /ni[ñn]o|kids?|child|escolar/i, gender: 'ninos' },
+  { pattern: /accesorio|accessorie|gorra|guante|manga/i, gender: 'accesorios' },
 ];
 
-const TREKKING_URL = 'https://trekkinghouseperu.pe/categoria-producto/mujeres/todo-antiuv-mujeres/';
+const inferCollectionGender = (handle = '', title = '') => {
+  const text = `${handle} ${title}`.toLowerCase();
+  for (const { pattern, gender } of COLLECTION_GENDER_MAP) {
+    if (pattern.test(text)) return gender;
+  }
+  return null; // skip unrecognized collections
+};
 
+// Shopify collections we always skip (non-product pages, lookbooks, etc.)
+const SKIP_COLLECTION_PATTERNS = [
+  /frontpage|homepage|sale|oferta|outlet|featured|novedad|new-arrival|destacado|bundle|pack|gift|regalo/i,
+];
+
+const shouldSkipCollection = (handle) => SKIP_COLLECTION_PATTERNS.some((p) => p.test(handle));
+
+// ---------------------------------------------------------------------------
+// Trekking House: multiple category pages scraped with Puppeteer
+// ---------------------------------------------------------------------------
+const TREKKING_SOURCES = [
+  {
+    url: 'https://trekkinghouseperu.pe/categoria-producto/mujeres/todo-antiuv-mujeres/',
+    collection: 'mujer',
+  },
+  {
+    url: 'https://trekkinghouseperu.pe/categoria-producto/hombres/',
+    collection: 'hombre',
+  },
+  {
+    url: 'https://trekkinghouseperu.pe/categoria-producto/ninos/',
+    collection: 'ninos',
+  },
+  {
+    url: 'https://trekkinghouseperu.pe/categoria-producto/accesorios/',
+    collection: 'accesorios',
+  },
+  {
+    url: 'https://trekkinghouseperu.pe/categoria-producto/todo-antiuv/',
+    collection: 'mujer', // fallback gender — will be inferred per product anyway
+  },
+];
+
+// ---------------------------------------------------------------------------
+// Paths
+// ---------------------------------------------------------------------------
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DATA_DIR = path.join(__dirname, '..', 'src', 'data');
@@ -36,6 +72,9 @@ const OUTPUT_TREKKING_PATH = path.join(SCRAPED_DIR, 'trekking.json');
 const OUTPUT_UVLINE_BY_CATEGORY_PATH = path.join(SCRAPED_DIR, 'uvline.by-category.json');
 const OUTPUT_TREKKING_BY_CATEGORY_PATH = path.join(SCRAPED_DIR, 'trekking.by-category.json');
 
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
 const normalizeUrl = (value) => (value ? value.split('?')[0] : '');
 
 const parsePrice = (value) => {
@@ -56,29 +95,66 @@ const normalizeTags = (tags) => {
 
 const fetchJson = async (url) => {
   const response = await fetch(url, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (compatible; UV-Scraper/1.0)'
-    }
+    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; UV-Scraper/1.0)' },
   });
-
   if (!response.ok) {
     throw new Error(`Request failed: ${response.status} ${response.statusText} for ${url}`);
   }
-
   return response.json();
 };
 
+// ---------------------------------------------------------------------------
+// UVLine scraper
+// ---------------------------------------------------------------------------
+const fetchUvlineCollections = async () => {
+  console.log('Discovering UVLine collections…');
+  const collections = [];
+  let page = 1;
+
+  while (true) {
+    const data = await fetchJson(`${UVLINE_BASE}/collections.json?limit=250&page=${page}`);
+    const batch = Array.isArray(data.collections) ? data.collections : [];
+    if (batch.length === 0) break;
+    collections.push(...batch);
+    if (batch.length < 250) break;
+    page++;
+  }
+
+  const targets = [];
+  for (const col of collections) {
+    if (shouldSkipCollection(col.handle)) continue;
+    const gender = inferCollectionGender(col.handle, col.title);
+    if (!gender) continue;
+    targets.push({
+      name: gender,
+      handle: col.handle,
+      url: `${UVLINE_BASE}/collections/${col.handle}/products.json`,
+    });
+  }
+
+  console.log(`Found ${targets.length} relevant UVLine collections.`);
+  return targets;
+};
+
 const scrapeUvline = async () => {
+  const collections = await fetchUvlineCollections();
   const products = [];
 
-  for (const collection of UVLINE_COLLECTIONS) {
+  for (const collection of collections) {
     let page = 1;
+    console.log(`  Scraping UVLine collection: ${collection.handle}`);
 
     while (true) {
       const pageUrl = `${collection.url}?page=${page}`;
-      const data = await fetchJson(pageUrl);
-      const pageProducts = Array.isArray(data.products) ? data.products : [];
+      let data;
+      try {
+        data = await fetchJson(pageUrl);
+      } catch (err) {
+        console.warn(`  Skipping ${pageUrl}: ${err.message}`);
+        break;
+      }
 
+      const pageProducts = Array.isArray(data.products) ? data.products : [];
       if (pageProducts.length === 0) break;
 
       for (const product of pageProducts) {
@@ -86,9 +162,9 @@ const scrapeUvline = async () => {
         const image = product?.image?.src || images[0] || '';
         const variants = (product.variants || []).map((variant) => ({
           title: variant?.title || '',
-          price: parsePrice(variant?.price)
+          price: parsePrice(variant?.price),
         }));
-        const price = variants.find((variant) => variant.price !== null)?.price ?? null;
+        const price = variants.find((v) => v.price !== null)?.price ?? null;
 
         products.push({
           id: product.id,
@@ -103,15 +179,15 @@ const scrapeUvline = async () => {
           product_type: product.product_type || '',
           tags: normalizeTags(product.tags),
           variants,
-          collection: collection.name
+          collection: collection.name,
         });
       }
 
-      page += 1;
+      page++;
     }
   }
 
-  // Deduplicate by Shopify product ID — same product may appear in multiple collections
+  // Deduplicate by Shopify product ID (same product may appear in multiple collections)
   const seen = new Set();
   return products.filter((p) => {
     if (seen.has(p.id)) return false;
@@ -120,12 +196,20 @@ const scrapeUvline = async () => {
   });
 };
 
-const scrapeTrekkingList = async (page) => {
-  await page.goto(TREKKING_URL, { waitUntil: 'networkidle2' });
-  await page.waitForSelector('li.product, .products .product', { timeout: 15000 });
+// ---------------------------------------------------------------------------
+// Trekking House scraper (Puppeteer)
+// ---------------------------------------------------------------------------
+const scrapeTrekkingList = async (page, url) => {
+  try {
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.waitForSelector('li.product, .products .product', { timeout: 15000 });
+  } catch {
+    console.warn(`  No products found at ${url}, skipping.`);
+    return [];
+  }
 
   return page.$$eval('li.product, .products .product', (cards) => {
-    const getText = (element) => (element ? element.textContent.trim() : '');
+    const getText = (el) => (el ? el.textContent.trim() : '');
 
     const getImage = (card) => {
       const img = card.querySelector('img');
@@ -139,27 +223,23 @@ const scrapeTrekkingList = async (page) => {
       );
     };
 
-    const getPrice = (card) => {
-      const priceEl = card.querySelector('.price');
-      return getText(priceEl);
-    };
-
-    const getCategory = (card) => {
-      const catEl = card.querySelector('.ast-woo-product-category, .woocommerce-loop-product__category, .product-category');
-      return getText(catEl);
-    };
-
     return cards
       .map((card) => {
         const link = card.querySelector('a');
-        const titleEl = card.querySelector('h2.woocommerce-loop-product__title, .woocommerce-loop-product__title');
+        const titleEl = card.querySelector(
+          'h2.woocommerce-loop-product__title, .woocommerce-loop-product__title'
+        );
+        const priceEl = card.querySelector('.price');
+        const catEl = card.querySelector(
+          '.ast-woo-product-category, .woocommerce-loop-product__category, .product-category'
+        );
 
         return {
           name: getText(titleEl),
-          priceText: getPrice(card),
+          priceText: getText(priceEl),
           url: link ? link.href : '',
           image: getImage(card),
-          category: getCategory(card)
+          category: getText(catEl),
         };
       })
       .filter((item) => item.url && item.name);
@@ -167,11 +247,14 @@ const scrapeTrekkingList = async (page) => {
 };
 
 const scrapeTrekkingDetail = async (page, url) => {
-  await page.goto(url, { waitUntil: 'networkidle2' });
-  await page.waitForSelector('body', { timeout: 15000 });
+  try {
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.waitForSelector('body', { timeout: 15000 });
+  } catch {
+    return { description: '', images: [] };
+  }
 
   return page.evaluate(() => {
-    const getHtml = (element) => (element ? element.innerHTML.trim() : '');
     const getImage = (img) => {
       if (!img) return '';
       return (
@@ -197,17 +280,10 @@ const scrapeTrekkingDetail = async (page, url) => {
       .filter(Boolean);
 
     return {
-      description: getHtml(descriptionRoot),
-      images: Array.from(new Set(galleryImages))
+      description: descriptionRoot ? descriptionRoot.innerHTML.trim() : '',
+      images: Array.from(new Set(galleryImages)),
     };
   });
-};
-
-const getCollectionFromUrl = (url) => {
-  if (/mujeres/.test(url)) return 'mujer';
-  if (/hombres/.test(url)) return 'hombre';
-  if (/ninos/.test(url)) return 'ninos';
-  return 'accesorios';
 };
 
 const extractSlugFromUrl = (url) => {
@@ -221,51 +297,51 @@ const scrapeTrekking = async () => {
   const listPage = await browser.newPage();
   listPage.setDefaultTimeout(30000);
   listPage.setUserAgent('Mozilla/5.0 (compatible; UV-Scraper/1.0)');
-
-  const cards = await scrapeTrekkingList(listPage);
-  const collection = getCollectionFromUrl(TREKKING_URL);
-
   const detailPage = await browser.newPage();
   detailPage.setDefaultTimeout(30000);
   detailPage.setUserAgent('Mozilla/5.0 (compatible; UV-Scraper/1.0)');
 
-  const results = [];
+  const allResults = [];
+  const seenUrls = new Set();
 
-  for (const card of cards) {
-    const detail = await scrapeTrekkingDetail(detailPage, card.url);
-    const normalizedCard = normalizeUrl(card.image);
-    const normalizedImages = detail.images.map(normalizeUrl).filter(Boolean);
+  for (const source of TREKKING_SOURCES) {
+    console.log(`  Scraping Trekking source: ${source.url}`);
+    const cards = await scrapeTrekkingList(listPage, source.url);
 
-    const hasMatchingImage = normalizedCard && normalizedImages.includes(normalizedCard);
-    const images = detail.images.length > 0 ? detail.images : (card.image ? [card.image] : []);
-    const image = hasMatchingImage ? card.image : (images[0] || card.image || '');
+    for (const card of cards) {
+      if (seenUrls.has(card.url)) continue;
+      seenUrls.add(card.url);
 
-    if (card.image && !hasMatchingImage && images[0]) {
-      console.warn(`Image mismatch for ${card.url}. Using product gallery image.`);
+      const detail = await scrapeTrekkingDetail(detailPage, card.url);
+      const normalizedCard = normalizeUrl(card.image);
+      const normalizedImages = detail.images.map(normalizeUrl).filter(Boolean);
+      const hasMatchingImage = normalizedCard && normalizedImages.includes(normalizedCard);
+      const images = detail.images.length > 0 ? detail.images : card.image ? [card.image] : [];
+      const image = hasMatchingImage ? card.image : images[0] || card.image || '';
+
+      allResults.push({
+        name: card.name,
+        price: parsePrice(card.priceText),
+        url: card.url,
+        collection: source.collection,
+        image,
+        images,
+        description: detail.description || '',
+        category: card.category || '',
+      });
     }
-
-    results.push({
-      name: card.name,
-      price: parsePrice(card.priceText),
-      url: card.url,
-      collection,
-      image,
-      images,
-      description: detail.description || '',
-      category: card.category || ''
-    });
   }
 
   await browser.close();
-  return results;
+  return allResults;
 };
 
+// ---------------------------------------------------------------------------
+// Catalog builder
+// ---------------------------------------------------------------------------
 const CATEGORY_RULES = [
   { category: 'Rashguards', keywords: ['rashguard', 'rash'] },
-  {
-    category: 'Trajes de Baño',
-    keywords: ['traje de bano', 'traje de baño', 'bikini', 'swimwear', 'banador', 'enterizo', 'one-piece']
-  },
+  { category: 'Trajes de Baño', keywords: ['traje de bano', 'traje de baño', 'bikini', 'swimwear', 'banador', 'enterizo', 'one-piece'] },
   { category: 'Polos', keywords: ['polo', 'camiseta', 't-shirt', 'tshirt', 'camisa'] },
   { category: 'Leggings', keywords: ['legging', 'calza'] },
   { category: 'Casacas', keywords: ['casaca', 'chaqueta', 'jacket', 'parka'] },
@@ -275,7 +351,7 @@ const CATEGORY_RULES = [
   { category: 'Guantes', keywords: ['guante', 'glove'] },
   { category: 'Conjuntos', keywords: ['conjunto', 'set', 'kit'] },
   { category: 'Shorts', keywords: ['short'] },
-  { category: 'Pantalones', keywords: ['pantalon', 'pant'] }
+  { category: 'Pantalones', keywords: ['pantalon', 'pant'] },
 ];
 
 const SIZE_ORDER = ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'];
@@ -283,10 +359,7 @@ const DEFAULT_COLORS = ['#0B1F3A', '#A9D6FF', '#FFFFFF'];
 
 const normalizeText = (value) => {
   if (!value) return '';
-  return value
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '');
+  return value.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 };
 
 const uniq = (items) => Array.from(new Set(items));
@@ -294,13 +367,11 @@ const uniq = (items) => Array.from(new Set(items));
 const inferCategory = (item) => {
   const productType = normalizeText(item.product_type || item.category || '');
 
-  // Always resolve specific product_types before checking collection
   if (productType.includes('guante') || productType.includes('glove')) return 'Guantes';
   if (productType.includes('gorra') || productType.includes('sombrero')) return 'Gorras';
   if (productType.includes('camiseta') || productType.includes('camisa')) return 'Polos';
   if (productType.includes('ropa de bano') || productType.includes('bano')) return 'Trajes de Baño';
 
-  // Accessories collection fallback after specific type checks
   if (item.collection === 'accesorios') return 'Accesorios';
 
   const haystack = normalizeText(
@@ -308,9 +379,7 @@ const inferCategory = (item) => {
   );
 
   for (const rule of CATEGORY_RULES) {
-    if (rule.keywords.some((keyword) => haystack.includes(normalizeText(keyword)))) {
-      return rule.category;
-    }
+    if (rule.keywords.some((kw) => haystack.includes(normalizeText(kw)))) return rule.category;
   }
 
   return 'Accesorios';
@@ -333,19 +402,15 @@ const inferUpf = (item) => {
   const text = normalizeText([item.name, item.description, (item.tags || []).join(' ')].filter(Boolean).join(' '));
   const match = text.match(/upf\s*(\d{2})\s*\+*/);
   if (match) {
-    const level = match[1];
     if (text.includes('50++')) return 'UPF 50++';
-    if (level === '30') return 'UPF 30+';
-    if (level === '50') return 'UPF 50+';
+    if (match[1] === '30') return 'UPF 30+';
+    if (match[1] === '50') return 'UPF 50+';
   }
   return 'UPF 50+';
 };
 
 const inferActivity = (item, category) => {
-  // Category is the primary signal — swimwear/rashguards are always beach
   if (category === 'Trajes de Baño' || category === 'Rashguards') return 'Playa';
-  // Use only name + description, never tags — UVLine tags like "Playa" are marketing labels
-  // applied to almost all products, making them useless as activity classifiers.
   const text = normalizeText([item.name, item.description].filter(Boolean).join(' '));
   if (text.includes('trekking') || text.includes('hiking') || text.includes('senderismo') || text.includes('montani')) return 'Outdoor';
   if (text.includes('running') || text.includes('correr')) return 'Running';
@@ -359,8 +424,8 @@ const extractSizesFromVariants = (variants) => {
 
   for (const variant of variants) {
     const tokens = String(variant.title || '')
-      .split(/[\/|-]/g)
-      .map((part) => part.trim().toUpperCase())
+      .split(/[/|-]/g)
+      .map((p) => p.trim().toUpperCase())
       .filter(Boolean);
     for (const token of tokens) {
       if (SIZE_ORDER.includes(token)) sizes.add(token);
@@ -392,12 +457,14 @@ const slugify = (value) => {
 };
 
 const SUSPECT_IMAGE_PATTERNS = ['tabla', 'medida', 'size-chart', 'sizechart', 'chart', 'talla'];
-
 const filterProductImages = (images) =>
   images.filter((img) => {
     const lower = img.toLowerCase();
     return !SUSPECT_IMAGE_PATTERNS.some((p) => lower.includes(p));
   });
+
+// Price scaling: bring raw prices (often 100–300 soles) into display range 19–90
+const scalePrice = (raw) => Math.max(19, Math.min(90, Math.round(raw * 0.32)));
 
 const buildCatalogProduct = (item, source) => {
   const category = inferCategory(item);
@@ -407,12 +474,12 @@ const buildCatalogProduct = (item, source) => {
   const sizes = extractSizesFromVariants(item.variants) || [];
   const finalSizes = sizes.length > 0 ? sizes : defaultSizesFor(category, gender);
   const colors = defaultColorsFor(category);
-  const rawImages = item.images && item.images.length > 0 ? item.images : (item.image ? [item.image] : []);
+  const rawImages = item.images && item.images.length > 0 ? item.images : item.image ? [item.image] : [];
   const images = filterProductImages(rawImages);
   const image = filterProductImages([item.image || ''])[0] || images[0] || '';
-  const price = item.price ?? null;
+  const rawPrice = item.price ?? null;
 
-  if (!image || price === null) return null;
+  if (!image || rawPrice === null) return null;
 
   const idPrefix = source === 'uvline' ? 'uv' : 'trek';
   const id = item.id
@@ -422,7 +489,7 @@ const buildCatalogProduct = (item, source) => {
   return {
     id,
     name: item.name,
-    price,
+    price: scalePrice(rawPrice),
     image,
     images,
     colors,
@@ -432,18 +499,13 @@ const buildCatalogProduct = (item, source) => {
     upf,
     activity,
     isConjunto: category === 'Conjuntos',
-    isNew: isNewItem(item)
+    isNew: isNewItem(item),
   };
 };
 
 const buildCatalogProducts = (uvline, trekking) => {
-  const uvlineProducts = uvline
-    .map((item) => buildCatalogProduct(item, 'uvline'))
-    .filter(Boolean);
-  const trekkingProducts = trekking
-    .map((item) => buildCatalogProduct(item, 'trekking'))
-    .filter(Boolean);
-
+  const uvlineProducts = uvline.map((item) => buildCatalogProduct(item, 'uvline')).filter(Boolean);
+  const trekkingProducts = trekking.map((item) => buildCatalogProduct(item, 'trekking')).filter(Boolean);
   return [...uvlineProducts, ...trekkingProducts];
 };
 
@@ -453,48 +515,44 @@ const buildFilters = (products) => {
   const activities = uniq(products.map((p) => p.activity)).sort();
   const upf = uniq(products.map((p) => p.upf)).sort();
   const sizes = uniq(products.flatMap((p) => p.sizes));
-
-  const sizeSorted = SIZE_ORDER.filter((size) => sizes.includes(size));
   return {
     categories,
     genders,
     activities,
     upf,
-    sizes: sizeSorted
+    sizes: SIZE_ORDER.filter((size) => sizes.includes(size)),
   };
 };
 
-const groupBy = (items, getKey) => {
-  return items.reduce((acc, item) => {
+const groupBy = (items, getKey) =>
+  items.reduce((acc, item) => {
     const key = getKey(item) || 'Otros';
     if (!acc[key]) acc[key] = [];
     acc[key].push(item);
     return acc;
   }, {});
-};
 
+// ---------------------------------------------------------------------------
+// Entry point
+// ---------------------------------------------------------------------------
 const run = async () => {
   await fs.mkdir(SCRAPED_DIR, { recursive: true });
 
+  console.log('Starting scrape…');
   const [uvline, trekking] = await Promise.all([scrapeUvline(), scrapeTrekking()]);
 
-  const payload = {
-    uvline,
-    trekking
-  };
-
+  const payload = { uvline, trekking };
   await fs.writeFile(OUTPUT_SCRAPED_PATH, JSON.stringify(payload, null, 2), 'utf-8');
   await fs.writeFile(OUTPUT_UVLINE_PATH, JSON.stringify(uvline, null, 2), 'utf-8');
   await fs.writeFile(OUTPUT_TREKKING_PATH, JSON.stringify(trekking, null, 2), 'utf-8');
-
   await fs.writeFile(
     OUTPUT_UVLINE_BY_CATEGORY_PATH,
-    JSON.stringify(groupBy(uvline, (item) => inferCategory(item)), null, 2),
+    JSON.stringify(groupBy(uvline, inferCategory), null, 2),
     'utf-8'
   );
   await fs.writeFile(
     OUTPUT_TREKKING_BY_CATEGORY_PATH,
-    JSON.stringify(groupBy(trekking, (item) => inferCategory(item)), null, 2),
+    JSON.stringify(groupBy(trekking, inferCategory), null, 2),
     'utf-8'
   );
 
@@ -504,11 +562,16 @@ const run = async () => {
   await fs.writeFile(OUTPUT_PRODUCTS_PATH, JSON.stringify(catalogProducts, null, 2), 'utf-8');
   await fs.writeFile(OUTPUT_FILTERS_PATH, JSON.stringify(filters, null, 2), 'utf-8');
 
-  console.log(
-    `Saved ${uvline.length} uvline products and ${trekking.length} trekking products. Catalog: ${catalogProducts.length}.`
-  );
-  console.log(`Scraped data: ${OUTPUT_SCRAPED_PATH}`);
-  console.log(`Catalog data: ${OUTPUT_PRODUCTS_PATH}`);
+  const uvCount = uvline.length;
+  const trCount = trekking.length;
+  const catCount = catalogProducts.length;
+  const prices = catalogProducts.map((p) => p.price);
+  const avgPrice = (prices.reduce((a, b) => a + b, 0) / prices.length).toFixed(1);
+  const maxPrice = Math.max(...prices);
+
+  console.log(`\n✓ UVLine: ${uvCount} | Trekking: ${trCount} | Catalog total: ${catCount}`);
+  console.log(`  Precio promedio: S/ ${avgPrice} | Máximo: S/ ${maxPrice}`);
+  console.log(`  Catálogo → ${OUTPUT_PRODUCTS_PATH}`);
 };
 
 run().catch((error) => {

@@ -66,7 +66,7 @@ export function CheckoutPage() {
   const [paymentErrors, setPaymentErrors] = useState<Partial<PaymentData>>({});
   const [loading, setLoading] = useState(false);
 
-  const shippingCost = total >= 199 ? 0 : 15;
+  const shippingCost = total >= 99 ? 0 : 15;
   const finalTotal = total + shippingCost;
 
   if (items.length === 0 && step !== 'confirmacion') {

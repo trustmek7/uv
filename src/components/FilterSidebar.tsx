@@ -29,28 +29,6 @@ const FILTER_OPTIONS = {
   ],
   upf: productFilters.upf ?? ['UPF 30+', 'UPF 50+', 'UPF 50++'],
   activity: productFilters.activities ?? ['Outdoor', 'Trekking', 'Running', 'Deportivo', 'Escolar', 'Playa'],
-  conjuntos: [
-    'Conjuntos escolares',
-    'Conjuntos deportivos',
-    'Conjuntos casuales',
-    'Conjuntos outdoor',
-    'Uniformes deportivos',
-    'Ropa deportiva escolar',
-  ],
-  ropaDeBano: [
-    'Rashguards',
-    'Trajes de Baño',
-    'Manga corta',
-    'Manga larga',
-    'Mangas UV',
-    'Guantes UV',
-    'Shorts UV',
-    'Pantalones UV',
-    'Casacas ligeras',
-    'Playa',
-    'Outdoor',
-    'Deportivo',
-  ],
 };
 
 const EMPTY_FILTERS: FilterState = {
@@ -60,17 +38,13 @@ const EMPTY_FILTERS: FilterState = {
   category: [],
   upf: [],
   activity: [],
-  conjuntos: [],
-  ropaDeBano: [],
-  priceRange: [0, 500],
+  priceRange: [0, 100],
 };
 
 export function FilterSidebar({ filters, setFilters, className = '' }: FilterSidebarProps) {
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
-    ropaDeBano: true,
     category: true,
     gender: true,
-    conjuntos: false,
     size: false,
     upf: false,
     activity: false,
@@ -117,7 +91,21 @@ export function FilterSidebar({ filters, setFilters, className = '' }: FilterSid
             {options.map((option) => {
               const isChecked = (filters[filterKey] as string[]).includes(option);
               return (
-                <label key={option} className="flex items-center gap-3 cursor-pointer group">
+                <label
+                  key={option}
+                  className="flex items-center gap-3 cursor-pointer group"
+                  onClick={() =>
+                    setFilters((prev) => {
+                      const current = prev[filterKey] as string[];
+                      return {
+                        ...prev,
+                        [filterKey]: isChecked
+                          ? current.filter((v) => v !== option)
+                          : [...current, option],
+                      };
+                    })
+                  }
+                >
                   <div
                     className={`w-4 h-4 rounded-sm border flex items-center justify-center transition-colors ${
                       isChecked
@@ -153,20 +141,6 @@ export function FilterSidebar({ filters, setFilters, className = '' }: FilterSid
         </button>
       </div>
 
-      {/* Ropa de Baño — women-exclusive highlight section */}
-      <div className="mb-2 px-3 py-2 bg-sky/20 rounded-sm">
-        <span className="text-[10px] uppercase tracking-widest text-uv font-medium">
-          Sección Exclusiva Mujer
-        </span>
-      </div>
-      <AccordionSection
-        title="Ropa de Baño UV"
-        filterKey="ropaDeBano"
-        options={FILTER_OPTIONS.ropaDeBano}
-        accent
-      />
-
-      <AccordionSection title="Conjuntos Deportivos" filterKey="conjuntos" options={FILTER_OPTIONS.conjuntos} />
       <AccordionSection title="Categoría" filterKey="category" options={FILTER_OPTIONS.category} />
       <AccordionSection title="Género" filterKey="gender" options={FILTER_OPTIONS.gender} />
       <AccordionSection title="Talla" filterKey="size" options={FILTER_OPTIONS.size} />
