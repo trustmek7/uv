@@ -13,6 +13,13 @@ import { CartPage } from './pages/CartPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { WishlistPage } from './pages/WishlistPage';
+import { FAQPage } from './pages/FAQPage';
+import { SizeGuidePage } from './pages/SizeGuidePage';
+import { ShippingPage } from './pages/ShippingPage';
+import { UPFTechPage } from './pages/UPFTechPage';
+import { ContactPage } from './pages/ContactPage';
+import { PrivacyPage } from './pages/PrivacyPage';
+import { TermsPage } from './pages/TermsPage';
 
 export function App() {
   return (
@@ -34,6 +41,16 @@ export function App() {
                 <Route path="/checkout" element={<CheckoutPage />} />
                 <Route path="/perfil" element={<ProfilePage />} />
                 <Route path="/favoritos" element={<WishlistPage />} />
+
+                {/* Static info pages */}
+                <Route path="/preguntas-frecuentes" element={<FAQPage />} />
+                <Route path="/guia-de-tallas" element={<SizeGuidePage />} />
+                <Route path="/envios-y-devoluciones" element={<ShippingPage />} />
+                <Route path="/tecnologia-upf" element={<UPFTechPage />} />
+                <Route path="/contacto" element={<ContactPage />} />
+                <Route path="/privacidad" element={<PrivacyPage />} />
+                <Route path="/terminos" element={<TermsPage />} />
+
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Route>
             </Routes>

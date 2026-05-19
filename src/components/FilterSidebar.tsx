@@ -11,24 +11,10 @@ interface FilterSidebarProps {
 
 const FILTER_OPTIONS = {
   gender: productFilters.genders ?? ['Mujer', 'Hombre', 'Niños', 'Unisex'],
-  size: productFilters.sizes ?? ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-  category: productFilters.categories ?? [
-    'Polos',
-    'Leggings',
-    'Casacas',
-    'Cortavientos',
-    'Gorras',
-    'Mangas',
-    'Guantes',
-    'Conjuntos',
-    'Rashguards',
-    'Trajes de Baño',
-    'Shorts',
-    'Pantalones',
-    'Accesorios',
-  ],
-  upf: productFilters.upf ?? ['UPF 30+', 'UPF 50+', 'UPF 50++'],
-  activity: productFilters.activities ?? ['Outdoor', 'Trekking', 'Running', 'Deportivo', 'Escolar', 'Playa'],
+  size: productFilters.sizes ?? ['XS', 'S', 'M', 'L', 'XL'],
+  category: productFilters.categories ?? ['Polos', 'Gorras', 'Guantes', 'Trajes de Baño', 'Accesorios'],
+  upf: productFilters.upf ?? ['UPF 50+'],
+  activity: productFilters.activities ?? ['Deportivo', 'Outdoor', 'Playa'],
 };
 
 const EMPTY_FILTERS: FilterState = {

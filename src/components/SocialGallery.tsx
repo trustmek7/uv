@@ -1,10 +1,15 @@
 import React from 'react';
+import { Instagram } from 'lucide-react';
+
+const INSTAGRAM_URL = 'https://www.instagram.com/solarwear.peru/';
+
 const images = [
-'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=600',
-'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&q=80&w=600',
-'https://images.unsplash.com/photo-1542272201-b1ca555f8505?auto=format&fit=crop&q=80&w=600',
-'https://images.unsplash.com/photo-1521555562723-51829636b110?auto=format&fit=crop&q=80&w=600',
-'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=600'];
+  'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=600',
+  'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&q=80&w=600',
+  'https://images.unsplash.com/photo-1542272201-b1ca555f8505?auto=format&fit=crop&q=80&w=600',
+  'https://images.unsplash.com/photo-1521555562723-51829636b110?auto=format&fit=crop&q=80&w=600',
+  'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=600',
+];
 
 export function SocialGallery() {
   return (
@@ -14,29 +19,36 @@ export function SocialGallery() {
           Síguenos en Instagram
         </h2>
         <a
-          href="#"
-          className="text-2xl font-light text-slate-500 hover:text-navy transition-colors">
-          
-          @solarwear
+          href={INSTAGRAM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-2xl font-light text-slate-500 hover:text-navy transition-colors"
+        >
+          <Instagram strokeWidth={1.5} className="w-6 h-6" />
+          @solarwear.peru
         </a>
       </div>
 
       <div className="flex w-full overflow-x-auto scrollbar-hide snap-x">
-        {images.map((img, idx) =>
-        <a
-          key={idx}
-          href="#"
-          className="relative flex-none w-64 sm:w-1/4 lg:w-1/5 aspect-square group snap-center">
-          
+        {images.map((img, idx) => (
+          <a
+            key={idx}
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative flex-none w-64 sm:w-1/4 lg:w-1/5 aspect-square group snap-center"
+          >
             <img
-            src={img}
-            alt="Instagram post"
-            className="w-full h-full object-cover" />
-          
-            <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/10 transition-colors duration-300 flex items-center justify-center"></div>
+              src={img}
+              alt={`SolarWear en Instagram ${idx + 1}`}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300 flex items-center justify-center">
+              <Instagram strokeWidth={1.5} className="w-6 h-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
           </a>
-        )}
+        ))}
       </div>
-    </section>);
-
+    </section>
+  );
 }

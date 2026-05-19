@@ -1,14 +1,14 @@
 {
   "categories": [
-    "Accesorios",
+    "Polos",
     "Gorras",
     "Guantes",
-    "Polos",
-    "Trajes de Baño"
+    "Trajes de Baño",
+    "Accesorios"
   ],
   "genders": [
-    "Hombre",
     "Mujer",
+    "Hombre",
     "Niños",
     "Unisex"
   ],

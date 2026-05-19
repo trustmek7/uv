@@ -19,28 +19,15 @@ const NAV_ITEMS: {
         heading: 'Prendas',
         items: [
           { label: 'Polos UV', href: '/catalogo?genero=Mujer&categoria=Polos' },
-          { label: 'Leggings', href: '/catalogo?genero=Mujer&categoria=Leggings' },
-          { label: 'Casacas', href: '/catalogo?genero=Mujer&categoria=Casacas' },
-          { label: 'Cortavientos', href: '/catalogo?genero=Mujer&categoria=Cortavientos' },
-          { label: 'Conjuntos', href: '/catalogo?genero=Mujer&categoria=Conjuntos' },
-        ],
-      },
-      {
-        heading: 'Ropa de Baño',
-        items: [
-          { label: 'Rashguards', href: '/catalogo?genero=Mujer&categoria=Rashguards' },
-          { label: 'Swimwear UPF', href: '/catalogo?genero=Mujer&categoria=Swimwear' },
-          { label: 'Shorts UV', href: '/catalogo?genero=Mujer&categoria=Shorts' },
-          { label: 'Pantalones UV', href: '/catalogo?genero=Mujer&categoria=Pantalones' },
-          { label: 'Mangas UV', href: '/catalogo?genero=Mujer&categoria=Mangas' },
-          { label: 'Guantes UV', href: '/catalogo?genero=Mujer&categoria=Guantes' },
+          { label: 'Trajes de Baño', href: '/catalogo?genero=Mujer&categoria=Trajes de Baño' },
         ],
       },
       {
         heading: 'Accesorios',
         items: [
           { label: 'Gorras UV', href: '/catalogo?genero=Mujer&categoria=Gorras' },
-          { label: 'Sombreros', href: '/catalogo?categoria=Gorras' },
+          { label: 'Guantes UV', href: '/catalogo?categoria=Guantes' },
+          { label: 'Mangas UV', href: '/catalogo?categoria=Accesorios' },
         ],
       },
     ],
@@ -53,15 +40,12 @@ const NAV_ITEMS: {
         heading: 'Prendas',
         items: [
           { label: 'Polos UV', href: '/catalogo?genero=Hombre&categoria=Polos' },
-          { label: 'Casacas', href: '/catalogo?genero=Hombre&categoria=Casacas' },
-          { label: 'Cortavientos', href: '/catalogo?genero=Hombre&categoria=Cortavientos' },
         ],
       },
       {
         heading: 'Accesorios',
         items: [
           { label: 'Gorras UV', href: '/catalogo?genero=Hombre&categoria=Gorras' },
-          { label: 'Mangas UV', href: '/catalogo?genero=Hombre&categoria=Mangas' },
         ],
       },
     ],
@@ -71,27 +55,31 @@ const NAV_ITEMS: {
     href: '/catalogo?genero=Niños',
     dropdown: [
       {
-        heading: 'Escolar',
+        heading: 'Prendas',
         items: [
-          { label: 'Uniformes UV', href: '/catalogo?genero=Niños&actividad=Escolar' },
-          { label: 'Conjuntos Escolares', href: '/catalogo?genero=Niños&categoria=Conjuntos' },
+          { label: 'Camisetas UV', href: '/catalogo?genero=Niños&categoria=Polos' },
+          { label: 'Ropa de Baño', href: '/catalogo?genero=Niños&categoria=Trajes de Baño' },
+        ],
+      },
+      {
+        heading: 'Accesorios',
+        items: [
+          { label: 'Gorras y Sombreros', href: '/catalogo?genero=Niños&categoria=Gorras' },
         ],
       },
     ],
   },
   { label: 'Deportivo', href: '/catalogo?actividad=Deportivo' },
   { label: 'Outdoor', href: '/catalogo?actividad=Outdoor' },
-  { label: 'Escolar', href: '/catalogo?actividad=Escolar' },
-  { label: 'Trekking', href: '/catalogo?actividad=Trekking' },
   {
     label: 'Accesorios',
-    href: '/catalogo?categoria=Gorras',
+    href: '/catalogo?categoria=Accesorios',
     dropdown: [
       {
         items: [
           { label: 'Gorras UV', href: '/catalogo?categoria=Gorras' },
-          { label: 'Mangas UV', href: '/catalogo?categoria=Mangas' },
           { label: 'Guantes UV', href: '/catalogo?categoria=Guantes' },
+          { label: 'Mangas UV', href: '/catalogo?categoria=Accesorios' },
         ],
       },
     ],

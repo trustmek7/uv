@@ -24,7 +24,7 @@
     "category": "Polos",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -50,7 +50,7 @@
     "category": "Polos",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": true
   },
@@ -76,7 +76,7 @@
     "category": "Polos",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": true
   },
@@ -102,7 +102,7 @@
     "category": "Polos",
     "gender": "Mujer",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": true
   },
@@ -155,9 +155,9 @@
       "XL"
     ],
     "category": "Guantes",
-    "gender": "Hombre",
+    "gender": "Unisex",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -242,9 +242,9 @@
       "XL"
     ],
     "category": "Guantes",
-    "gender": "Hombre",
+    "gender": "Unisex",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -516,7 +516,7 @@
   },
   {
     "id": "uv-8740728963246",
-    "name": "Sombrero UV Infantil con protección solar California - Marino/verde agua",
+    "name": "Sombrero UV Infantil con protección solar California - Marino/Verde Agua",
     "price": 51,
     "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/178042-3500-auto_cali_verde.webp?v=1746547424",
     "images": [
@@ -539,7 +539,7 @@
     "category": "Gorras",
     "gender": "Niños",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -574,7 +574,7 @@
   },
   {
     "id": "uv-8915561447598",
-    "name": "Sombrero UV Infantil con protección solar California - Marino/lago",
+    "name": "Sombrero UV Infantil con protección solar California - Marino/Lago",
     "price": 51,
     "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/SombreroInfantilCalifornia_MarinoLago-1.jpg?v=1764193540",
     "images": [
@@ -595,7 +595,7 @@
     "category": "Gorras",
     "gender": "Niños",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -899,7 +899,7 @@
     "category": "Guantes",
     "gender": "Unisex",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -953,7 +953,7 @@
     "category": "Guantes",
     "gender": "Unisex",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -978,7 +978,7 @@
     "category": "Guantes",
     "gender": "Unisex",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Outdoor",
     "isConjunto": false,
     "isNew": false
   },
@@ -1006,7 +1006,7 @@
     "category": "Accesorios",
     "gender": "Unisex",
     "upf": "UPF 50+",
-    "activity": "Deportivo",
+    "activity": "Playa",
     "isConjunto": false,
     "isNew": false
   },
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "trek-sombrero-proteccion-solar-mt500-forclaz-2",
-    "name": "Sombrero protección solar MT500 Forclaz",
+    "name": "Sombrero protección solar MT500 Forclaz - Beige",
     "price": 48,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-46-10-600x600.jpg.webp",
     "images": [
@@ -1102,7 +1102,7 @@
   },
   {
     "id": "trek-gorra-proteccion-solar-desmontable-forclaz-900",
-    "name": "GORRA PROTECCIÓN SOLAR DESMONTABLE FORCLAZ 900",
+    "name": "Gorra protección solar Desmontable Forclaz 900",
     "price": 45,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/03/Sin-titulo-25-8-600x600.jpg.webp",
     "images": [
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "trek-camiseta-proteccion-solar-kalenji-upf50",
-    "name": "CAMISETA PROTECCIÓN SOLAR KALENJI (UPF50+)",
+    "name": "Camiseta protección solar Kalenji UPF 50+",
     "price": 42,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/Negro-ML-1-600x600.jpg.webp",
     "images": [
@@ -1170,7 +1170,7 @@
   },
   {
     "id": "trek-camiseta-proteccion-solar-olaian-upf50-3",
-    "name": "CAMISETA PROTECCIÓN SOLAR OLAIAN (UPF50+)",
+    "name": "Camiseta protección solar Olaian UPF 50+ - Negro",
     "price": 31,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-5-600x600.jpg.webp",
     "images": [
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "trek-camiseta-proteccion-solar-olaian-upf50-4",
-    "name": "CAMISETA PROTECCIÓN SOLAR OLAIAN (UPF50+)",
+    "name": "Camiseta protección solar Olaian UPF 50+ - Blanco",
     "price": 29,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-7-600x600.jpg.webp",
     "images": [
