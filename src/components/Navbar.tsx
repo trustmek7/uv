@@ -174,7 +174,7 @@ export function Navbar() {
               <img
                 src="/img/SolarWear_logo.jpeg"
                 alt="SolarWear"
-                className="h-14 sm:h-16 w-auto object-contain mix-blend-multiply"
+                className="h-14 sm:h-16 w-auto object-contain"
               />
             </Link>
 
