@@ -26,20 +26,23 @@ export function ProductCard({
           className="w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-105" />
         
 
-        {/* Wishlist Button - Outline only, minimal */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleWishlist(product.id);
-          }}
-          className="absolute top-4 right-4 z-10 p-1 text-slate-400 hover:text-navy transition-colors"
-          aria-label="Toggle wishlist">
-          
-          <Heart
-            strokeWidth={1.5}
-            className={`w-5 h-5 transition-colors ${isWishlisted ? 'fill-uv text-uv' : ''}`} />
-          
-        </button>
+        {/* Wishlist Button */}
+        <div className="absolute top-4 right-4 z-10 group/tip">
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleWishlist(product.id);
+            }}
+            className="p-1 text-slate-400 hover:text-navy transition-colors"
+            aria-label="Toggle wishlist">
+            <Heart
+              strokeWidth={1.5}
+              className={`w-5 h-5 transition-colors ${isWishlisted ? 'fill-uv text-uv' : ''}`} />
+          </button>
+          <span className="pointer-events-none absolute top-1/2 -translate-y-1/2 right-full mr-2 px-2 py-1 bg-navy text-white text-[10px] whitespace-nowrap rounded-sm opacity-0 group-hover/tip:opacity-100 transition-opacity">
+            {isWishlisted ? 'Quitar de favoritos' : 'Añadir a favoritos'}
+          </span>
+        </div>
       </div>
 
       {/* Content */}

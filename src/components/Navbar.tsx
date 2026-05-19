@@ -269,12 +269,17 @@ export function Navbar() {
 
             {/* Icons */}
             <div className="flex items-center gap-3 sm:gap-4">
-              <button
-                onClick={() => setIsSearchOpen(!isSearchOpen)}
-                className="hidden sm:flex p-1 text-navy hover:opacity-70 transition-opacity"
-              >
-                <Search strokeWidth={1.5} className="w-5 h-5" />
-              </button>
+              <div className="relative group/tip hidden sm:flex">
+                <button
+                  onClick={() => setIsSearchOpen(!isSearchOpen)}
+                  className="p-1 text-navy hover:opacity-70 transition-opacity"
+                >
+                  <Search strokeWidth={1.5} className="w-5 h-5" />
+                </button>
+                <span className="pointer-events-none absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2 py-1 bg-navy text-white text-[10px] whitespace-nowrap rounded-sm opacity-0 group-hover/tip:opacity-100 transition-opacity z-50">
+                  Buscar
+                </span>
+              </div>
 
               {/* User auth area */}
               {isAuthenticated && user ? (
@@ -316,34 +321,49 @@ export function Navbar() {
                   )}
                 </div>
               ) : (
-                <Link
-                  to="/login"
-                  className="hidden sm:flex p-1 text-navy hover:opacity-70 transition-opacity"
-                >
-                  <User strokeWidth={1.5} className="w-5 h-5" />
-                </Link>
+                <div className="relative group/tip hidden sm:flex">
+                  <Link
+                    to="/login"
+                    className="p-1 text-navy hover:opacity-70 transition-opacity"
+                  >
+                    <User strokeWidth={1.5} className="w-5 h-5" />
+                  </Link>
+                  <span className="pointer-events-none absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2 py-1 bg-navy text-white text-[10px] whitespace-nowrap rounded-sm opacity-0 group-hover/tip:opacity-100 transition-opacity z-50">
+                    Iniciar sesión
+                  </span>
+                </div>
               )}
 
-              <Link to="/favoritos" className="p-1 text-navy hover:opacity-70 transition-opacity relative">
-                <Heart strokeWidth={1.5} className="w-5 h-5" />
-                {wishlistItems.length > 0 && (
-                  <span className="absolute -top-1 -right-1 w-4 h-4 bg-navy text-white text-[9px] font-medium flex items-center justify-center rounded-full">
-                    {wishlistItems.length}
-                  </span>
-                )}
-              </Link>
+              <div className="relative group/tip">
+                <Link to="/favoritos" className="p-1 text-navy hover:opacity-70 transition-opacity relative flex">
+                  <Heart strokeWidth={1.5} className="w-5 h-5" />
+                  {wishlistItems.length > 0 && (
+                    <span className="absolute -top-1 -right-1 w-4 h-4 bg-navy text-white text-[9px] font-medium flex items-center justify-center rounded-full">
+                      {wishlistItems.length}
+                    </span>
+                  )}
+                </Link>
+                <span className="pointer-events-none absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2 py-1 bg-navy text-white text-[10px] whitespace-nowrap rounded-sm opacity-0 group-hover/tip:opacity-100 transition-opacity z-50">
+                  Favoritos
+                </span>
+              </div>
 
-              <Link
-                to="/carrito"
-                className="p-1 text-navy hover:opacity-70 transition-opacity relative"
-              >
-                <ShoppingBag strokeWidth={1.5} className="w-5 h-5" />
-                {count > 0 && (
-                  <span className="absolute -top-1 -right-1 w-4 h-4 bg-navy text-white text-[9px] font-medium flex items-center justify-center rounded-full">
-                    {count}
-                  </span>
-                )}
-              </Link>
+              <div className="relative group/tip">
+                <Link
+                  to="/carrito"
+                  className="p-1 text-navy hover:opacity-70 transition-opacity relative flex"
+                >
+                  <ShoppingBag strokeWidth={1.5} className="w-5 h-5" />
+                  {count > 0 && (
+                    <span className="absolute -top-1 -right-1 w-4 h-4 bg-navy text-white text-[9px] font-medium flex items-center justify-center rounded-full">
+                      {count}
+                    </span>
+                  )}
+                </Link>
+                <span className="pointer-events-none absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2 py-1 bg-navy text-white text-[10px] whitespace-nowrap rounded-sm opacity-0 group-hover/tip:opacity-100 transition-opacity z-50">
+                  Carrito
+                </span>
+              </div>
             </div>
           </div>
         </div>
