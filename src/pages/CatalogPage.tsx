@@ -134,11 +134,14 @@ export function CatalogPage() {
     if (orden && orden in sortLabels) setSortBy(orden);
   }, [searchParams]);
 
+  const isOfertaMode = searchParams.get('oferta') === 'true';
+
   const searchQuery = (searchParams.get('q') || '').toLowerCase();
 
   const filteredProducts = useMemo(() => {
     return allProducts
       .filter((p) => {
+        if (isOfertaMode && !p.discount) return false;
         if (filters.gender.length > 0 && p.gender !== 'Unisex' && !filters.gender.includes(p.gender)) return false;
         if (filters.category.length > 0 && !filters.category.includes(p.category)) return false;
         if (filters.upf.length > 0 && !filters.upf.includes(p.upf)) return false;
@@ -155,7 +158,7 @@ export function CatalogPage() {
         if (sortBy === 'nuevos') return (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0);
         return 0;
       });
-  }, [filters, sortBy, searchQuery]);
+  }, [filters, sortBy, searchQuery, isOfertaMode]);
 
   const activeFilterCount =
     filters.gender.length +
@@ -165,6 +168,7 @@ export function CatalogPage() {
     filters.size.length;
 
   const pageTitle = (() => {
+    if (isOfertaMode) return 'Ofertas';
     if (searchQuery) return `Resultados para "${searchParams.get('q')}"`;
     if (filters.gender.length === 1) return filters.gender[0];
     if (filters.activity.length === 1) return filters.activity[0];

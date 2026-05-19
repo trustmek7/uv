@@ -1,4 +1,5 @@
 import React from 'react';
+import { WHATSAPP_URL } from '../data/constants';
 
 const sections = [
   {
@@ -27,7 +28,7 @@ const sections = [
   },
   {
     title: 'Ley Aplicable',
-    content: `Estos términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a los tribunales competentes de la ciudad de Lima.`,
+    content: `Estos términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a los tribunales competentes de la ciudad de Arequipa.`,
   },
 ];
 
@@ -47,7 +48,7 @@ export function TermsPage() {
           {sections.map((sec) => (
             <div key={sec.title} className="border-b border-slate-100 pb-10">
               <h2 className="text-sm font-medium text-navy mb-4">{sec.title}</h2>
-              <p className="text-sm text-slate-500 font-light leading-relaxed">{sec.content}</p>
+              <p className="text-sm text-slate-500 font-light leading-relaxed break-words">{sec.content}</p>
             </div>
           ))}
         </div>
@@ -55,7 +56,7 @@ export function TermsPage() {
         <div className="mt-12 p-8 bg-slate-50 rounded-sm text-center">
           <p className="text-sm text-navy font-light mb-4">¿Tienes dudas sobre nuestros términos?</p>
           <a
-            href="https://wa.me/51986782148"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xs uppercase tracking-widest font-medium text-navy border-b border-navy pb-1 hover:opacity-70 transition-opacity"

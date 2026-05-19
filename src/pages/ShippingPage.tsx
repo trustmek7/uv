@@ -1,14 +1,15 @@
 import React from 'react';
 import { Truck, RefreshCw, PackageCheck, AlertCircle } from 'lucide-react';
+import { WHATSAPP_URL } from '../data/constants';
 
 const shipping = [
   {
-    zone: 'Lima Metropolitana',
-    time: '1–3 días hábiles',
-    cost: 'Gratis en pedidos desde S/ 99 · S/ 10 en pedidos menores',
+    zone: 'Arequipa ciudad',
+    time: '1–2 días hábiles',
+    cost: 'Gratis en pedidos desde S/ 99 · S/ 8 en pedidos menores',
   },
   {
-    zone: 'Provincias (principales ciudades)',
+    zone: 'Provincias de Arequipa / otras ciudades principales',
     time: '3–5 días hábiles',
     cost: 'S/ 15 – S/ 20 según destino',
   },
@@ -20,7 +21,7 @@ const shipping = [
 ];
 
 const returnSteps = [
-  'Contacta con nuestro equipo por WhatsApp (+51 986 782 148) indicando tu número de pedido y el motivo.',
+  'Contáctanos por WhatsApp (+51 986 782 148) indicando tu número de pedido y el motivo.',
   'Te enviaremos las instrucciones para la devolución del producto.',
   'Envía el producto sin usar, con etiquetas y en su empaque original dentro de los 15 días desde la recepción.',
   'Una vez recibido y validado, procesamos el cambio o reembolso en un plazo de 5 días hábiles.',
@@ -115,7 +116,7 @@ export function ShippingPage() {
         <div className="p-8 bg-slate-50 rounded-sm text-center">
           <p className="text-sm text-navy font-light mb-4">¿Tienes algún problema con tu pedido?</p>
           <a
-            href="https://wa.me/51986782148"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xs uppercase tracking-widest font-medium text-navy border-b border-navy pb-1 hover:opacity-70 transition-opacity"

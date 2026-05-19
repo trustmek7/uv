@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook } from 'lucide-react';
 import { toast } from 'sonner';
-
-const INSTAGRAM_URL = 'https://www.instagram.com/solarwear.peru/';
-const FACEBOOK_URL = 'https://www.facebook.com/solarwear.peru';
+import { InstagramIcon, FacebookIcon } from './BrandIcons';
+import { INSTAGRAM_URL, FACEBOOK_URL } from '../data/constants';
 
 export function Footer() {
   const [email, setEmail] = useState('');
@@ -24,11 +22,11 @@ export function Footer() {
   return (
     <footer className="bg-white text-navy border-t border-slate-100 pt-24 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8 mb-16">
           {/* Brand */}
           <div className="lg:pr-8">
             <Link to="/" className="block mb-6">
-              <span className="font-sans text-xl font-medium tracking-wide uppercase">SolarWear</span>
+              <img src="/img/SolarWear.jpeg" alt="SolarWear" className="h-10 w-auto object-contain" />
             </Link>
             <p className="text-slate-400 text-sm font-light leading-relaxed mb-6">
               Diseño minimalista y protección UV avanzada para acompañarte en todas tus aventuras al aire libre.
@@ -41,7 +39,7 @@ export function Footer() {
                 className="text-slate-400 hover:text-navy transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram strokeWidth={1.5} className="w-5 h-5" />
+                <InstagramIcon className="w-5 h-5" />
               </a>
               <a
                 href={FACEBOOK_URL}
@@ -50,7 +48,7 @@ export function Footer() {
                 className="text-slate-400 hover:text-navy transition-colors"
                 aria-label="Facebook"
               >
-                <Facebook strokeWidth={1.5} className="w-5 h-5" />
+                <FacebookIcon className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -61,6 +59,7 @@ export function Footer() {
             <ul className="space-y-4">
               {[
                 { label: 'Novedades', href: '/catalogo?orden=nuevos' },
+                { label: 'Ofertas', href: '/catalogo?oferta=true' },
                 { label: 'Mujer', href: '/catalogo?genero=Mujer' },
                 { label: 'Hombre', href: '/catalogo?genero=Hombre' },
                 { label: 'Niños', href: '/catalogo?genero=Niños' },
@@ -130,7 +129,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-slate-400 text-xs font-light">© 2026 SolarWear Perú. Todos los derechos reservados.</p>
+          <p className="text-slate-400 text-xs font-light">© 2026 SolarWear Arequipa. Todos los derechos reservados.</p>
           <div className="flex gap-6 text-xs text-slate-400 font-light">
             <Link to="/privacidad" className="hover:text-navy transition-colors">Privacidad</Link>
             <Link to="/terminos" className="hover:text-navy transition-colors">Términos</Link>

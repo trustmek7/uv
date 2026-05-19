@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { WHATSAPP_URL } from '../data/constants';
 
 const faqs = [
   {
@@ -15,7 +16,7 @@ const faqs = [
   {
     question: '¿Cuánto tiempo tarda el envío?',
     answer:
-      'Para Lima Metropolitana, el envío tarda entre 1 y 3 días hábiles. Para provincias, entre 3 y 7 días hábiles dependiendo del destino. Los pedidos realizados antes de las 12:00 pm se procesan el mismo día.',
+      'Para Arequipa ciudad, el envío tarda entre 1 y 2 días hábiles. Para otras provincias y ciudades, entre 3 y 7 días hábiles dependiendo del destino. Los pedidos realizados antes de las 12:00 pm se procesan el mismo día.',
   },
   {
     question: '¿Puedo hacer devoluciones?',
@@ -35,7 +36,7 @@ const faqs = [
   {
     question: '¿Tienen tienda física?',
     answer:
-      'Actualmente operamos únicamente a través de nuestra tienda online y distribuidores autorizados. Para consultas sobre distribuidores en tu ciudad, contáctanos por WhatsApp al +51 986 782 148.',
+      'Actualmente operamos online y a través de distribuidores autorizados en Arequipa. Para consultas sobre puntos de venta, contáctanos por WhatsApp al +51 986 782 148.',
   },
   {
     question: '¿Cómo puedo rastrear mi pedido?',
@@ -87,7 +88,7 @@ export function FAQPage() {
         <div className="mt-16 p-8 bg-slate-50 rounded-sm text-center">
           <p className="text-sm text-navy font-light mb-4">¿No encontraste lo que buscabas?</p>
           <a
-            href="https://wa.me/51986782148"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xs uppercase tracking-widest font-medium text-navy border-b border-navy pb-1 hover:opacity-70 transition-opacity"

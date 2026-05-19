@@ -2,7 +2,9 @@
   {
     "id": "uv-8427195990190",
     "name": "Camisa UV con protección solar Copacabana - Arena",
-    "price": 90,
+    "price": 77,
+    "originalPrice": 90,
+    "discount": 15,
     "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_4_07f86bbf-e6be-45cb-9daa-09888b7b4366.jpg?v=1716224623",
     "images": [
       "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020139spcopacabana122mcfemareia_4_07f86bbf-e6be-45cb-9daa-09888b7b4366.jpg?v=1716224623",
@@ -109,7 +111,9 @@
   {
     "id": "uv-8106974052526",
     "name": "Gorra UV con protección solar Uvpro - Negro",
-    "price": 32,
+    "price": 26,
+    "originalPrice": 32,
+    "discount": 20,
     "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176108-3500-auto.webp?v=1773075791",
     "images": [
       "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/176108-3500-auto.webp?v=1773075791",
@@ -293,7 +297,7 @@
       "L"
     ],
     "category": "Gorras",
-    "gender": "Hombre",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Deportivo",
     "isConjunto": false,
@@ -790,7 +794,7 @@
       "M"
     ],
     "category": "Accesorios",
-    "gender": "Unisex",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Outdoor",
     "isConjunto": false,
@@ -816,7 +820,7 @@
       "M"
     ],
     "category": "Accesorios",
-    "gender": "Unisex",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Outdoor",
     "isConjunto": false,
@@ -850,7 +854,9 @@
   {
     "id": "uv-8262999802030",
     "name": "Hat Clip UV LINE",
-    "price": 19,
+    "price": 15,
+    "originalPrice": 19,
+    "discount": 20,
     "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/DAD24E66-5517-4D73-93EC-D323AA419904.jpg?v=1762612702",
     "images": [
       "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/DAD24E66-5517-4D73-93EC-D323AA419904.jpg?v=1762612702",
@@ -985,7 +991,9 @@
   {
     "id": "uv-8636991471790",
     "name": "Pareo Lisa Fem Marino UV LINE",
-    "price": 48,
+    "price": 36,
+    "originalPrice": 48,
+    "discount": 25,
     "image": "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_3.jpg?v=1734103811",
     "images": [
       "https://cdn.shopify.com/s/files/1/0619/2073/9502/files/11020038lecangalisa2019femmarinho_3.jpg?v=1734103811",
@@ -1004,7 +1012,7 @@
       "XL"
     ],
     "category": "Accesorios",
-    "gender": "Unisex",
+    "gender": "Mujer",
     "upf": "UPF 50+",
     "activity": "Playa",
     "isConjunto": false,
@@ -1138,7 +1146,9 @@
   {
     "id": "trek-camiseta-proteccion-solar-kalenji-upf50",
     "name": "Camiseta protección solar Kalenji UPF 50+",
-    "price": 42,
+    "price": 34,
+    "originalPrice": 42,
+    "discount": 20,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/Negro-ML-1-600x600.jpg.webp",
     "images": [
       "https://trekkinghouseperu.pe/wp-content/uploads/2024/06/Negro-ML-1-600x600.jpg.webp",
@@ -1171,7 +1181,9 @@
   {
     "id": "trek-camiseta-proteccion-solar-olaian-upf50-3",
     "name": "Camiseta protección solar Olaian UPF 50+ - Negro",
-    "price": 31,
+    "price": 26,
+    "originalPrice": 31,
+    "discount": 15,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-5-600x600.jpg.webp",
     "images": [
       "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-2-5-600x600.jpg.webp",
@@ -1208,7 +1220,9 @@
   {
     "id": "trek-camiseta-proteccion-solar-olaian-upf50-4",
     "name": "Camiseta protección solar Olaian UPF 50+ - Blanco",
-    "price": 29,
+    "price": 25,
+    "originalPrice": 29,
+    "discount": 15,
     "image": "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-7-600x600.jpg.webp",
     "images": [
       "https://trekkinghouseperu.pe/wp-content/uploads/2024/02/Sin-titulo-32-7-600x600.jpg.webp",

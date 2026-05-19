@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { WHATSAPP_URL } from '../data/constants';
 
 const categories = ['Polos / Camisetas', 'Gorras', 'Guantes'] as const;
 type Category = typeof categories[number];
@@ -56,7 +57,7 @@ export function SizeGuidePage() {
         </div>
 
         {/* Category tabs */}
-        <div className="flex gap-1 border-b border-slate-100 mb-10 overflow-x-auto">
+        <div className="flex gap-1 border-b border-slate-100 mb-10 overflow-x-auto scrollbar-hide">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -78,7 +79,7 @@ export function SizeGuidePage() {
             <thead>
               <tr className="border-b border-slate-200">
                 {table.headers.map((h) => (
-                  <th key={h} className="text-left py-3 pr-6 text-xs uppercase tracking-widest font-medium text-slate-400">
+                  <th key={h} className="text-left py-3 pr-3 sm:pr-6 text-xs uppercase tracking-widest font-medium text-slate-400">
                     {h}
                   </th>
                 ))}
@@ -88,7 +89,7 @@ export function SizeGuidePage() {
               {table.rows.map((row) => (
                 <tr key={row[0]} className="border-b border-slate-50 hover:bg-slate-50/50 transition-colors">
                   {row.map((cell, i) => (
-                    <td key={i} className={`py-4 pr-6 font-light text-slate-600 ${i === 0 ? 'font-medium text-navy' : ''}`}>
+                    <td key={i} className={`py-3 pr-3 sm:pr-6 font-light text-slate-600 text-sm ${i === 0 ? 'font-medium text-navy' : ''}`}>
                       {cell}
                     </td>
                   ))}
@@ -114,7 +115,7 @@ export function SizeGuidePage() {
         <div className="mt-12 p-8 bg-slate-50 rounded-sm text-center">
           <p className="text-sm text-navy font-light mb-4">¿Tienes dudas sobre tu talla?</p>
           <a
-            href="https://wa.me/51986782148"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xs uppercase tracking-widest font-medium text-navy border-b border-navy pb-1 hover:opacity-70 transition-opacity"

@@ -1,8 +1,7 @@
 import React from 'react';
-import { MessageCircle, Instagram, Facebook, Clock, MapPin } from 'lucide-react';
-
-const WHATSAPP_NUMBER = '51986782148';
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
+import { MessageCircle, Clock, MapPin } from 'lucide-react';
+import { InstagramIcon, FacebookIcon } from '../components/BrandIcons';
+import { WHATSAPP_URL, INSTAGRAM_URL, FACEBOOK_URL } from '../data/constants';
 
 export function ContactPage() {
   return (
@@ -22,7 +21,7 @@ export function ContactPage() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-5 p-8 bg-[#25D366] rounded-sm hover:bg-[#1ebe5c] transition-colors group"
+            className="flex items-center gap-4 p-5 sm:p-8 bg-[#25D366] rounded-sm hover:bg-[#1ebe5c] transition-colors group"
           >
             <MessageCircle strokeWidth={1.5} className="w-10 h-10 text-white flex-shrink-0" />
             <div>
@@ -52,9 +51,9 @@ export function ContactPage() {
               <MapPin strokeWidth={1.5} className="w-4 h-4 text-navy" />
               <h3 className="text-xs uppercase tracking-widest font-medium text-navy">Ubicación</h3>
             </div>
-            <p className="text-sm text-slate-500 font-light">Lima, Perú</p>
+            <p className="text-sm text-slate-500 font-light">Arequipa, Perú</p>
             <p className="text-sm text-slate-400 font-light mt-2">
-              Operamos únicamente online y a través de distribuidores autorizados.
+              Operamos online y a través de distribuidores autorizados en Arequipa y todo el país.
             </p>
           </div>
         </div>
@@ -66,21 +65,21 @@ export function ContactPage() {
           </h2>
           <div className="flex gap-4">
             <a
-              href="https://www.instagram.com/solarwear.peru/"
+              href={INSTAGRAM_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-5 py-3 border border-slate-200 rounded-sm text-sm text-slate-600 hover:border-navy hover:text-navy transition-colors font-light"
             >
-              <Instagram strokeWidth={1.5} className="w-4 h-4" />
+              <InstagramIcon className="w-4 h-4" />
               Instagram
             </a>
             <a
-              href="https://www.facebook.com/solarwear.peru"
+              href={FACEBOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 px-5 py-3 border border-slate-200 rounded-sm text-sm text-slate-600 hover:border-navy hover:text-navy transition-colors font-light"
             >
-              <Facebook strokeWidth={1.5} className="w-4 h-4" />
+              <FacebookIcon className="w-4 h-4" />
               Facebook
             </a>
           </div>

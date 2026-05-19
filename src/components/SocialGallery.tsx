@@ -1,7 +1,6 @@
 import React from 'react';
-import { Instagram } from 'lucide-react';
-
-const INSTAGRAM_URL = 'https://www.instagram.com/solarwear.peru/';
+import { INSTAGRAM_URL } from '../data/constants';
+import { InstagramIcon } from './BrandIcons';
 
 const images = [
   'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=600',
@@ -24,7 +23,7 @@ export function SocialGallery() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-2xl font-light text-slate-500 hover:text-navy transition-colors"
         >
-          <Instagram strokeWidth={1.5} className="w-6 h-6" />
+          <InstagramIcon className="w-6 h-6" />
           @solarwear.peru
         </a>
       </div>
@@ -44,7 +43,7 @@ export function SocialGallery() {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-navy/0 group-hover:bg-navy/20 transition-colors duration-300 flex items-center justify-center">
-              <Instagram strokeWidth={1.5} className="w-6 h-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <InstagramIcon className="w-6 h-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
           </a>
         ))}

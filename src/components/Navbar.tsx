@@ -70,7 +70,7 @@ const NAV_ITEMS: {
     ],
   },
   { label: 'Deportivo', href: '/catalogo?actividad=Deportivo' },
-  { label: 'Outdoor', href: '/catalogo?actividad=Outdoor' },
+  { label: 'Ofertas', href: '/catalogo?oferta=true' },
   {
     label: 'Accesorios',
     href: '/catalogo?categoria=Accesorios',
@@ -151,9 +151,10 @@ export function Navbar() {
         }`}
       >
         {/* Announcement bar */}
-        <div className="bg-navy text-white py-2 px-4 text-center">
-          <p className="text-[10px] uppercase tracking-widest font-medium">
-            Envío gratis en compras desde S/ 99 &nbsp;·&nbsp; Tecnología UPF 50+ certificada
+        <div className="bg-navy text-white py-2 px-4 text-center overflow-hidden">
+          <p className="text-[10px] uppercase tracking-widest font-medium truncate sm:overflow-visible sm:whitespace-normal">
+            <span className="hidden sm:inline">Envío gratis en compras desde S/ 99 &nbsp;·&nbsp; Tecnología UPF 50+ certificada</span>
+            <span className="sm:hidden">Envío gratis desde S/ 99 · UPF 50+</span>
           </p>
         </div>
 
@@ -170,9 +171,11 @@ export function Navbar() {
 
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <span className="font-sans text-xl sm:text-2xl font-medium text-navy tracking-wide uppercase">
-                SolarWear
-              </span>
+              <img
+                src="/img/SolarWear.jpeg"
+                alt="SolarWear"
+                className="h-10 sm:h-12 w-auto object-contain"
+              />
             </Link>
 
             {/* Desktop navigation */}
@@ -385,7 +388,7 @@ export function Navbar() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-50 bg-white flex flex-col lg:hidden">
           <div className="flex items-center justify-between p-6 border-b border-slate-100">
-            <span className="text-xl font-medium text-navy tracking-wide uppercase">SolarWear</span>
+            <img src="/img/SolarWear.jpeg" alt="SolarWear" className="h-10 w-auto object-contain" />
             <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 text-navy">
               <X strokeWidth={1.5} className="w-6 h-6" />
             </button>

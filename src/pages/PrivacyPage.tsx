@@ -1,4 +1,5 @@
 import React from 'react';
+import { WHATSAPP_URL } from '../data/constants';
 
 const sections = [
   {
@@ -36,7 +37,7 @@ No vendemos ni compartimos tus datos personales con terceros para fines comercia
 • Solicitar la rectificación de datos incorrectos.
 • Solicitar la cancelación de tu cuenta y datos asociados.
 • Oponerte al tratamiento de tus datos.
-Para ejercer cualquiera de estos derechos, contáctanos por WhatsApp al +51 986 782 148.`,
+Para ejercer cualquiera de estos derechos, contáctanos por WhatsApp al +51 986 782 148 (Arequipa, Perú).`,
   },
   {
     title: 'Cambios a esta Política',
@@ -60,7 +61,7 @@ export function PrivacyPage() {
           {sections.map((sec) => (
             <div key={sec.title} className="border-b border-slate-100 pb-10">
               <h2 className="text-sm font-medium text-navy mb-4">{sec.title}</h2>
-              <p className="text-sm text-slate-500 font-light leading-relaxed whitespace-pre-line">
+              <p className="text-sm text-slate-500 font-light leading-relaxed whitespace-pre-line break-words">
                 {sec.content}
               </p>
             </div>
@@ -70,7 +71,7 @@ export function PrivacyPage() {
         <div className="mt-12 p-8 bg-slate-50 rounded-sm text-center">
           <p className="text-sm text-navy font-light mb-4">¿Tienes preguntas sobre privacidad?</p>
           <a
-            href="https://wa.me/51986782148"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xs uppercase tracking-widest font-medium text-navy border-b border-navy pb-1 hover:opacity-70 transition-opacity"

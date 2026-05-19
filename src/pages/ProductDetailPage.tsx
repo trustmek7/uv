@@ -56,7 +56,7 @@ export function ProductDetailPage() {
     <div className="pt-[104px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-slate-400 mb-10">
+        <nav className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-slate-400 mb-10 flex-wrap">
           <Link to="/" className="hover:text-navy transition-colors">Inicio</Link>
           <ChevronRight strokeWidth={1.5} className="w-3 h-3" />
           <Link to="/catalogo" className="hover:text-navy transition-colors">Catálogo</Link>
@@ -89,12 +89,12 @@ export function ProductDetailPage() {
 
             {/* Thumbnails */}
             {product.images.length > 1 && (
-              <div className="flex gap-3">
+              <div className="flex gap-3 overflow-x-auto pb-1 scrollbar-hide">
                 {product.images.map((img, i) => (
                   <button
                     key={i}
                     onClick={() => setActiveImage(i)}
-                    className={`w-20 aspect-square overflow-hidden rounded-sm border-2 transition-colors ${
+                    className={`w-16 sm:w-20 flex-shrink-0 aspect-square overflow-hidden rounded-sm border-2 transition-colors ${
                       activeImage === i ? 'border-navy' : 'border-transparent'
                     }`}
                   >
