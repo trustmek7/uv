@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Search, Heart, ShoppingBag, Menu, ChevronDown, LogOut, User, Package, X } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
@@ -174,7 +174,7 @@ export function Navbar() {
               <img
                 src="/img/SolarWear_Logo.jpeg"
                 alt="SolarWear"
-                className="h-10 sm:h-12 w-auto object-contain"
+                className="h-14 sm:h-16 w-auto object-contain mix-blend-multiply"
               />
             </Link>
 
